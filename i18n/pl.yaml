@@ -1,0 +1,251 @@
+- id: home
+  translation: "Główna"
+
+- id: templateBy
+  translation: "Szablon stworzony przez"
+
+- id: copyRight
+  translation: "Wszelkie prawa zastrzeżone"
+
+- id: portedBy
+  translation: "Przeportowany do Hugo przez"
+
+- id: createdBy
+  translation: "Strona stworzona przez"
+
+- id: contact
+  translation: "Kontakt"
+
+- id: contactGoTo
+  translation: "Przejdź do strony kontaktu"
+
+- id: contactAddrTitle
+  translation: "Adres"
+
+- id: contactTitle
+  translation: "Kontakt"
+
+- id: contactForm
+  translation: "Formularz kontaktowy"
+
+- id: contactName
+  translation: "Twoje imię"
+
+- id: contactMail
+  translation: "Twój e-mail"
+
+- id: contactMessage
+  translation: "Twoja wiadomość"
+
+- id: contactSend
+  translation: "Wyślij wiadomość"
+
+- id: navHome
+  translation: "przejdź do strony głównej"
+
+- id: navToggle
+  translation: "Przełącz nawigację"
+
+- id: categoriesTitle
+  translation: "Kategorie"
+
+- id: searchTitle
+  translation: "Wyszukiwanie"
+
+- id: tagsTitle
+  translation: "Tagi"
+
+- id: continueReading
+  translation: "Kontynuuj czytanie"
+
+- id: readMore
+  translation: "Czytaj dalej"
+
+- id: authorBy
+  translation: "Autor"
+
+- id: recentPosts
+  translation: "Ostatnie posty"
+
+- id: aboutUs
+  translation: "O nas"
+
+- id: newer
+  translation: "Nowsze"
+
+- id: older
+  translation: "Starsze"
+
+- id: publishedOn
+  translation: "dnia"
+
+- id: 404Error
+  translation: "Błąd 404: nie znaleziono strony"
+
+- id: 404Message
+  translation: "Przepraszamy – ta strona nie jest już tu dostępna"
+
+- id: 404NavHome
+  translation: "Przejdź do strony głównej"
+
+- id: January
+  translation: Styczeń
+
+- id: February
+  translation: Luty
+
+- id: March
+  translation: Marzec
+
+- id: April
+  translation: Kwiecień
+
+- id: May
+  translation: Maj
+
+- id: June
+  translation: Czerwiec
+
+- id: July
+  translation: Lipiec
+
+- id: August
+  translation: Sierpień
+
+- id: September
+  translation: Wrzesień
+
+- id: October
+  translation: Październik
+
+- id: November
+  translation: Listopad
+
+- id: December
+  translation: Grudzień
+
+- id: seeMore
+  translation: Chcesz zobaczyć więcej?
+
+- id: seeMoreSubtitle
+  translation: "Sprawdź naszego facebooka i instagrama!" 
+
+- id: facebookStomatologia
+  translation: "Facebook Stomatologia"
+
+- id: instagramStomatologia
+  translation: "Instagram Stomatologia"
+
+- id: facebookMedycyna
+  translation: "Facebook Medycyna"
+
+- id: instagramMedycyna
+  translation: "Instagram Medycyna"
+
+- id: seeOpinions
+  translation: "Zobacz opinie"
+
+- id: seeOpinionsSubtitle
+  translation: "Wasze Opinie To Nasze Najlepsze Referencje w Świecie Opieki Stomatologicznej i Medycznej. Sprawdź, Co Mówią Nasi Klienci!"
+
+- id: workingHours
+  translation: "Godziny pracy"
+
+- id: phone
+  translation: "Telefon"
+
+- id: stomatologiaDlaCiebie
+  translation: "Stomatologia dla Ciebie"
+
+- id: medycynaDlaCiebie
+  translation: "Medycyna dla Ciebie"
+
+- id: openingHours
+  translation: "Godziny otwarcia"
+
+- id: monday
+  translation: "Poniedziałek"
+
+- id: tuesday
+  translation: "Wtorek"
+
+- id: wednesday
+  translation: "Środa"
+
+- id: thursday
+  translation: "Czwartek"
+
+- id: friday
+  translation: "Piątek"
+
+- id: saturday
+  translation: "Sobota"
+
+- id: sunday
+  translation: "Niedziela"
+
+- id: closed
+  translation: "Zamknięte"
+
+- id: CAROUSEL1_TITLE
+  translation: "UŚMIECHNIJ SIĘ!"
+
+- id: CAROUSEL1_TEXT1
+  translation: "Marzysz o poprawie wyglądu swojego uśmiechu?"
+
+- id: CAROUSEL1_TEXT2
+  translation: "Chcesz pozbyć się bólu zęba?"
+
+- id: CAROUSEL1_TEXT3
+  translation: "Chirurgia, profilaktyka, dziecięca opieka - Wszystko pod jednym dachem!"
+
+- id: CAROUSEL1_TEXT4
+  translation: "U nas znajdziesz troskliwą opiekę i drogę do uśmiechu pełnego zdrowia i pewności siebie."
+
+- id: CAROUSEL2_TITLE
+  translation: "IDEALNA WAGA, PEŁNA ENERGIA!"
+
+- id: CAROUSEL2_TEXT1
+  translation: "Chcesz schudnąć?"
+
+- id: CAROUSEL2_TEXT2
+  translation: "Masz problemy z trawieniem?"
+
+- id: CAROUSEL2_TEXT3
+  translation: "Oferujemy kompleksową opiekę medyczną, która pomoże Ci osiągnąć wymarzoną sylwetkę i zdrowie."
+
+- id: CAROUSEL2_TEXT4
+  translation: "Zapraszamy do medycyny dla Ciebie!"
+
+- id: CAROUSEL2_TEXT5
+  translation: "Zmień złe nawyki żywieniowe i zacznij żyć zdrowo!"
+
+- id: CAROUSEL3_TITLE
+  translation: "ODZYSKAJ SWOBODĘ RUCHU!"
+
+- id: CAROUSEL3_TEXT1
+  translation: "Ból kręgosłupa?"
+
+- id: CAROUSEL3_TEXT2
+  translation: "Ból stawów?"
+
+- id: CAROUSEL3_TEXT3
+  translation: "Twoje Ciało zasługuje na lepszą opiekę!"
+
+- id: CAROUSEL3_TEXT4
+  translation: "Twoja droga do pełnej sprawności zaczyna się tutaj!"
+
+- id: CAROUSEL4_TITLE
+  translation: "ODKRYJ NOWOCZENE PIĘKNO!"
+
+- id: "CAROUSEL4_TEXT1"
+  translation: "Gładka skóra bez zbędnego owłosienia!"
+
+- id: "CAROUSEL4_TEXT2"
+  translation: "Innowacyjna depilacja laserowa dla trwałego efektu."
+
+- id: "CAROUSEL4_TEXT3"
+  translation: "Maseczka węglowa - odśwież, oczyszczaj, ciesz się promienną skórą!"
+
+- id: "CAROUSEL4_TEXT4"
+  translation: "Fotoodmładzanie - redukcja zmarszczek i poprawa elastyczności skóry!"

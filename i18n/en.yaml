@@ -1,0 +1,251 @@
+- id: home
+  translation: "Home"
+
+- id: templateBy
+  translation: "Template by"
+
+- id: copyRight
+  translation: "All rights reserved"
+
+- id: portedBy
+  translation: "Ported to Hugo by"
+
+- id: createdBy
+  translation: "Created by"
+
+- id: contact
+  translation: "Contact"
+
+- id: contactGoTo
+  translation: "Go to contact page"
+
+- id: contactAddrTitle
+  translation: "Address"
+
+- id: contactTitle
+  translation: "Contact"
+
+- id: contactForm
+  translation: "Contact form"
+
+- id: contactName
+  translation: "Your Name"
+
+- id: contactMail
+  translation: "Your Email"
+
+- id: contactMessage
+  translation: "Your Message"
+
+- id: contactSend
+  translation: "Send Message"
+
+- id: navHome
+  translation: "go to homepage"
+
+- id: navToggle
+  translation: "Toggle Navigation"
+
+- id: categoriesTitle
+  translation: "Categories"
+
+- id: searchTitle
+  translation: "Search"
+
+- id: tagsTitle
+  translation: "Tags"
+
+- id: continueReading
+  translation: "Continue reading"
+
+- id: readMore
+  translation: "Read more"
+
+- id: authorBy
+  translation: "By"
+
+- id: recentPosts
+  translation: "Recent posts"
+
+- id: aboutUs
+  translation: "About us"
+
+- id: newer
+  translation: "Newer"
+
+- id: older
+  translation: "Older"
+
+- id: publishedOn
+  translation: "on"
+
+- id: 404Error
+  translation: "Error 404: Page not found"
+
+- id: 404Message
+  translation: "We are sorry – this page is not here anymore"
+
+- id: 404NavHome
+  translation: "Go to homepage"
+
+- id: January
+  translation: January
+
+- id: February
+  translation: February
+
+- id: March
+  translation: March
+
+- id: April
+  translation: April
+
+- id: May
+  translation: May
+
+- id: June
+  translation: June
+
+- id: July
+  translation: July
+
+- id: August
+  translation: August
+
+- id: September
+  translation: September
+
+- id: October
+  translation: October
+
+- id: November
+  translation: November
+
+- id: December
+  translation: December
+
+- id: seeMore
+  translation: Do you want to see more?
+
+- id: seeMoreSubtitle
+  translation: "Check out our facebook and instagram!"
+
+- id: facebookStomatologia
+  translation: "Facebook Dentistry"
+
+- id: instagramStomatologia
+  translation: "Instagram Dentistry"
+
+- id: facebookMedycyna
+  translation: "Facebook Medicine"
+
+- id: instagramMedycyna
+  translation: "Instagram Medicine"
+
+- id: seeOpinions
+  translation: "See opinions"
+
+- id: seeOpinionsSubtitle
+  translation: "Your Opinions Are Our Best References in the World of Dental and Medical Care. Check Out What Our Customers Say!"
+
+- id: workingHours
+  translation: "Working hours"
+
+- id: phone
+  translation: "Phone"
+
+- id: stomatologiaDlaCiebie
+  translation: "Dentistry for you"
+
+- id: medycynaDlaCiebie
+  translation: "Medicine for you"
+
+- id: openingHours
+  translation: "Opening hours"
+
+- id: monday
+  translation: "Monday"
+
+- id: tuesday
+  translation: "Tuesday"
+
+- id: wednesday
+  translation: "Wednesday"
+
+- id: thursday
+  translation: "Thursday"
+
+- id: friday
+  translation: "Friday"
+
+- id: saturday
+  translation: "Saturday"
+
+- id: sunday
+  translation: "Sunday"
+
+- id: closed
+  translation: "Closed"
+
+- id: CAROUSEL1_TITLE
+  translation: "SMILE!"
+
+- id: CAROUSEL1_TEXT1
+  translation: "Do you dream of improving the appearance of your smile?"
+
+- id: CAROUSEL1_TEXT2
+  translation: "Do you want to get rid of toothache?"
+
+- id: CAROUSEL1_TEXT3
+  translation: "Surgery, prevention, children's care - All under one roof!"
+
+- id: CAROUSEL1_TEXT4
+  translation: "Here you will find caring care and the way to a smile full of health and self-confidence."
+
+- id: CAROUSEL2_TITLE
+  translation: "IDEAL WEIGHT, FULL OF ENERGY!"
+
+- id: CAROUSEL2_TEXT1
+  translation: "Do you want to lose weight?"
+
+- id: CAROUSEL2_TEXT2
+  translation: "Do you have digestive problems?"
+
+- id: CAROUSEL2_TEXT3
+  translation: "We offer comprehensive medical care that will help you achieve your dream figure and health."
+
+- id: CAROUSEL2_TEXT4
+  translation: "We invite you to medicine for you!"
+
+- id: CAROUSEL2_TEXT5
+  translation: "Change bad eating habits and start living healthy!"
+
+- id: CAROUSEL3_TITLE
+  translation: "REGAIN FREEDOM OF MOVEMENT!"
+
+- id: CAROUSEL3_TEXT1
+  translation: "Back pain?"
+
+- id: CAROUSEL3_TEXT2
+  translation: "Joint pain?"
+
+- id: CAROUSEL3_TEXT3
+  translation: "Your Body Deserves Better Care!"
+
+- id: CAROUSEL3_TEXT4
+  translation: "Your path to full fitness starts here!"
+
+- id: CAROUSEL4_TITLE
+  translation: "DISCOVER MODERN BEAUTY!"
+
+- id: CAROUSEL4_TEXT1
+  translation: "Smooth skin without unnecessary hair!"
+
+- id: CAROUSEL4_TEXT2
+  translation: "Innovative laser hair removal for a lasting effect."
+
+- id: CAROUSEL4_TEXT3
+  translation: "Charcoal mask - refresh, cleanse, enjoy radiant skin!"
+
+- id: CAROUSEL4_TEXT4
+  translation: "Photorejuvenation - wrinkle reduction and improved skin elasticity!"

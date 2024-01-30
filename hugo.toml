@@ -1,0 +1,338 @@
+baseURL = 'https://stomatologia-medycyna-dlaciebie.pl/'
+languageCode = 'en-us'
+title = 'Stomatologia i Medycyna dla Ciebie'
+theme = 'hugo-universal-theme'
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "pl"
+[languages]
+  [languages.pl]
+    weight = 1
+    languageName = "Polish"
+  [languages.en]
+    weight = 2
+    languageName = "English"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "dla Ciebie"
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+[menu]
+
+
+# Main menu
+
+[[menu.main]]
+    name       = "Stomatologia dla Ciebie"
+    identifier = "menu.stomatologiaDlaCiebie"
+    url        = "/img/img3.png"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Stomatologia dla Ciebie"
+    identifier = "section.stomatologia"
+    url        = "/Contact"
+    weight     = 1
+    parent     = "menu.stomatologiaDlaCiebie"
+    post       = 1
+
+[[menu.main]]
+    name       = "Header variations"
+    identifier = "section.headervariations"
+    url        = ""
+    weight     = 2
+    parent     = "menu.stomatologiaDlaCiebie"
+    post       = 2
+
+
+[[menu.main]]
+    name       = "Najczęstsze pytania"
+    url        = "/FAQ/"
+    weight     = 1
+    parent     = "section.stomatologia"
+
+
+[[menu.main]]
+    name       = "Alerts"
+    url        = ""
+    weight     = 2
+    parent     = "section.stomatologia"
+
+
+
+[[menu.main]]
+    name       = "Default Sticky Header"
+    url        = ""
+    weight     = 1
+    parent     = "section.headervariations"
+
+[[menu.main]]
+    name       = "No Sticky Header"
+    url        = ""
+    weight     = 2
+    parent     = "section.headervariations"
+
+[[menu.main]]
+    name       = "Light Header"
+    url        = ""
+    weight     = 3
+    parent     = "section.headervariations"
+
+[[menu.main]]
+    name       = "Medycyna dla Ciebie"
+    identifier = "menu.medycynaDlaCiebie"
+    url        = "/img/img2.png"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Medycyna dla Ciebie"
+    identifier = "section.medycynaDlaCiebie"
+    url        = ""
+    weight     = 1
+    parent     = "menu.medycynaDlaCiebie"
+    post       = 1
+
+[[menu.main]]
+    name       = "2 Columns"
+    url        = ""
+    weight     = 1
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "2 Columns With Negative Space"
+    url        = ""
+    weight     = 2
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "3 Columns"
+    url        = ""
+    weight     = 3
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "3 Columns With Negative Space"
+    url        = ""
+    weight     = 4
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "4 Columns"
+    url        = ""
+    weight     = 5
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "4 Columns With Negative Space"
+    url        = ""
+    weight     = 6
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "Medycyna dla Ciebie - detail"
+    url        = ""
+    weight     = 7
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "Medycyna dla Ciebie - detail 2"
+    url        = ""
+    weight     = 8
+    parent     = "section.medycynaDlaCiebie"
+
+[[menu.main]]
+    name       = "About"
+    identifier = "section.about"
+    url        = ""
+    weight     = 2
+    parent     = "menu.medycynaDlaCiebie"
+    post       = 2
+
+[[menu.main]]
+    name       = "About Us"
+    url        = ""
+    weight     = 1
+    parent     = "section.about"
+
+[[menu.main]]
+    name       = "Our Team"
+    url        = ""
+    weight     = 2
+    parent     = "section.about"
+
+[[menu.main]]
+    name       = "Marketing"
+    identifier = "section.marketing"
+    url        = ""
+    weight     = 3
+    parent     = "menu.medycynaDlaCiebie"
+    post       = 2
+
+[[menu.main]]
+    name       = "Packages"
+    url        = ""
+    weight     = 1
+    parent     = "section.marketing"
+
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devcows", "hugo", "go"]
+    mainSections = ["blog"]
+    defaultDescription = "Site template made by Devcows using Hugo"
+
+    # Social media
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "img/sharing-default.png"
+
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "violet"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 50 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - register your account to https://formspree.io/register
+    # - login and create new form
+    # - set your form's endpoint url under 'formspree_action' below
+    # - upload the generated site to your server
+    # - test a dummy email yourself
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io endpoint url
+    formspree_action = "https://formspree.io/sample/of/endpoint"
+    contact_form_ajax = false
+
+    # Formspree form supports Google reCAPTCHA Key (type v2).
+    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
+    #
+    # By default, Formspree use a redirect page for recaptcha widget.
+    # If you use a recaptcha widget in your contact page, you should do next steps.
+    # (if you don't want, skip these steps)
+    #
+    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
+    #   2. select reCAPTCHA v2 and checkbox widget type.
+    #   3. remember site key and secret key.
+    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
+    #   5. change `enableRecaptchaInContactForm` is to true
+    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
+    #
+    enableRecaptchaInContactForm = false
+    googleRecaptchaKey = "site_key_for_google_recaptcha"
+
+
+    copyright = ""
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    dropdown_mouse_over = false
+
+    disabled_logo = false
+    logo_text = "Dla Ciebie"
+
+    logo = "img/logo8.png"
+    logo_small = "img/logo7.png"
+    contact_url = "/contact"
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = """<p class="hidden-sm hidden-xs">Stomatologia dla Ciebie: + 48 519 455 989  </p> 
+    <p class="hidden-sm hidden-xs">Medycyna dla Ciebie: + 48 519 455 989 </p>
+      <p class="hidden-md hidden-lg"><a href="tel:+ 48 519 455 989" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carouselCustomers]
+    items = 6
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselTestimonials]
+    items = 4
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # For more information take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 100
+    pagination_speed = 3000
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more information take a look at the README.
+
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more information take a look at the README.
+    title = ""
+    subtitle = ""
+
+[params.see_more]
+    enable = true
+
+[params.footer]
+
+  [params.address_left]
+    street = "Niepodległości 59/2"
+    city = "73-110 Stargard"
+  
+
+  # Dane dla prawej strony
+  [params.address_right]
+    street = "Czesława Niemena 2/1"
+    city = "73-110 Stargard"
+
+
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = false
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    hide_summary = false
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
