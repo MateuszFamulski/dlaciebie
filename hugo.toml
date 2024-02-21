@@ -1,7 +1,7 @@
 baseURL = 'https://dlaciebie.pl/'
 languageCode = 'en-us'
 title = 'Stomatologia i Medycyna dla Ciebie'
-theme = 'hugo-universal-theme'
+theme = 'my-themes'
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "pl"
 [languages]
