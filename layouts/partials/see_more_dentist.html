@@ -1,0 +1,29 @@
+{{ if isset .Site.Params "see_more" }}
+    {{ if .Site.Params.see_more.enable }}
+        <section class="bar background-image-fixed-2 no-mb color-white text-center">
+            <div class="dark-mask"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-uppercase">{{ i18n "seeMore" }}</h3>
+                        <p class="lead">{{ i18n "seeMoreSubtitle" }}</p>
+                        <p class="text-center">
+                        <!-- Link do arkusza stylów FontAwesome -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+                        <!-- Ikona Facebooka -->
+                        <a href="https://www.facebook.com/p/Stomatologia-dla-Ciebie-100064118321200" target="_blank" class="btn btn-blue">
+                            <i class="fab fa-facebook-f fa-4x"></i> <!-- Zamiast tekstu, ikona Facebooka -->
+                        </a>
+
+                        <!-- Ikona Instagrama -->
+                        <a href="https://www.instagram.com/stomatologia_dla_ciebie/" target="_blank" class="btn btn-blue">
+                            <i class="fab fa-instagram fa-4x"></i> <!-- Zamiast tekstu, ikona Instagrama -->
+                        </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
