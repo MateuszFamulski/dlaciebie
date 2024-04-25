@@ -93,6 +93,8 @@ pluralizelisttitles = false
     logo_text = "Dla Ciebie"
 
     logo = "img/logo8.png"
+    logo_dentist = "img/logo_dentist.png"
+    logo_medicine = "img/logo_medicine.png"
     logo_small = "img/logo7.png"
     contact_url = "/contact"
 
