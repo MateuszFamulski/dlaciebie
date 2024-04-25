@@ -145,8 +145,8 @@
 - id: seeOpinions
   translation: "Zobacz opinie"
 
-- id: seeOpinionsSubtitle
-  translation: "Wasze Opinie To Nasze Najlepsze Referencje w Świecie Opieki Stomatologicznej i Medycznej. Sprawdź, Co Mówią Nasi Klienci!"
+- id: seeOpinionsSubtitleDentist
+  translation: "Wasze Opinie To Nasze Najlepsze Referencje w Świecie Opieki Stomatologicznej. Sprawdź, Co Mówią Nasi Klienci!"
 
 - id: workingHours
   translation: "Godziny pracy"
@@ -188,7 +188,7 @@
   translation: "Zamknięte"
 
 - id: CAROUSEL1_TITLE
-  translation: "UŚMIECHNIJ SIĘ!"
+  translation: "TAK WIELE ZACZYNA SIĘ OD UŚMIECHU!"
 
 - id: CAROUSEL1_TEXT1
   translation: "Marzysz o poprawie wyglądu swojego uśmiechu?"
@@ -249,3 +249,39 @@
 
 - id: "CAROUSEL4_TEXT4"
   translation: "Fotoodmładzanie - redukcja zmarszczek i poprawa elastyczności skóry!"
+
+- id: "ABOUT_AS"
+  translation: "O nas"
+
+- id: "FAQ"
+  translation: "Najczęstsze pytania"
+
+- id: "SERVICES"
+  translation: "Usługi"
+
+- id: "CONSULTATION_AND_RESEARCH"
+  translation: "Konsultacje i badania"
+
+- id: "ENDODONTICS_ROOT_CANAL_TRETMENT"
+  translation: "Endodoncja - leczenie kanałowe"
+
+- id: "DENTAL_SURGERY"
+  translation: "Chirurgia stomatologiczna"
+
+- id: "IMPLANTS"
+  translation: "Implantologia"
+
+- id: "CONSERVATICE_TREATMENT"
+  translation: "Leczenie zachowawcze"
+
+- id: "PEDIATRIC_DENTISTRY"
+  translation: "Stomatologia dziecięca"
+
+- id: "PROPHYLAXIS"
+  translation: "Profilaktyka"
+
+- id: "TEETH_WHITENING"
+  translation: "Wybielanie zębów"
+
+- id: "CONTACT"
+  translation: "Kontakt"

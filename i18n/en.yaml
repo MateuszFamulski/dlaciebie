@@ -145,8 +145,8 @@
 - id: seeOpinions
   translation: "See opinions"
 
-- id: seeOpinionsSubtitle
-  translation: "Your Opinions Are Our Best References in the World of Dental and Medical Care. Check Out What Our Customers Say!"
+- id: seeOpinionsSubtitleDentist
+  translation: "Your Opinions Are Our Best References in the World of Dental Care. Check Out What Our Customers Say!"
 
 - id: workingHours
   translation: "Working hours"
@@ -188,7 +188,7 @@
   translation: "Closed"
 
 - id: CAROUSEL1_TITLE
-  translation: "SMILE!"
+  translation: "SO MUCH STARTS WITH A SMILE!"
 
 - id: CAROUSEL1_TEXT1
   translation: "Do you dream of improving the appearance of your smile?"
@@ -249,3 +249,39 @@
 
 - id: CAROUSEL4_TEXT4
   translation: "Photorejuvenation - wrinkle reduction and improved skin elasticity!"
+
+- id: "ABOUT_AS"
+  translation: "About us"
+
+- id: "FAQ"
+  translation: "FAQ"
+
+- id: "SERVICES"
+  translation: "Services"
+
+- id: "CONSULTATION_AND_RESEARCH"
+  translation: "Consultation and research"
+
+- id: "ENDODONTICS_ROOT_CANAL_TRETMENT"
+  translation: "Endodontics - root canal treatment"
+
+- id: "DENTAL_SURGERY"
+  translation: "Dental surgery"
+
+- id: "IMPLANTS"
+  translation: "Implants"
+
+- id: "CONSERVATICE_TREATMENT"
+  translation: "Conservative treatment"
+
+- id: "PEDIATRIC_DENTISTRY"
+  translation: "Pediatric dentistry"
+
+- id: "PROPHYLAXIS"
+  translation: "Prophylaxis"
+
+- id: "TEETH_WHITENING"
+  translation: "Teeth whitening"
+
+- id: "CONTACT"
+  translation: "Contact" 
