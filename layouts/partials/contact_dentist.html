@@ -1,0 +1,92 @@
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .contact-container {
+        flex-wrap: wrap;
+        max-width: 1000px; /* Maksymalna szerokość kontenera */
+        box-sizing: border-box; /* Rozmiar box-modelu obejmujący padding i border */
+        padding: 20px; /* Odległość wewnętrzna dla lepszego wyglądu */
+        margin: 10px; /* Margines wokół kontenerów */
+    }
+    .iframe-container {
+        flex-wrap: wrap;;
+        display: flex;
+        max-width: 800px; /* Maksymalna szerokość kontenera */
+        box-sizing: border-box; /* Rozmiar box-modelu obejmujący padding i border */
+        padding: 20px; /* Odległość wewnętrzna dla lepszego wyglądu */
+        margin: 10px; /* Margines wokół kontenerów */
+        position: center;
+    }
+    iframe {
+        width: 100%; /* Szerokość iframe'a na 100% kontenera */
+        height: 300px; /* Stała wysokość dla iframe */
+    }
+    .img-responsive {
+        width: 100%; /* Obrazy responsywne */
+        height: auto; /* Wysokość auto zachowuje proporcje */
+    }
+    @media (min-width: 768px) {
+        .container {
+            flex-wrap: wrap; /* Nie przechodzi do nowego wiersza na szerokich ekranach */
+        }
+        .contact-container, .iframe-container {
+            flex: 1 1 50%; /* Każdy kontener zajmuje 50% szerokości na szerokich ekranach */
+        }
+        iframe {
+            height: 400px; /* Zwiększenie wysokości iframe na szerszych ekranach */
+        }
+    }
+    .image-dentist-contact-banner {
+            width: 100%; /* Szerokość kontenera */
+            height: 300px; /* Wysokość kontenera */
+            background-image: url('/img/contact/dentist/img_2.jpg'); /* Ścieżka do obrazu */
+            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+        }
+</style>
+
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<title>Stomatologia dla Ciebie</title>
+
+  <head>
+    {{ partial "headers_dentist.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div class="container">
+        {{ partial "breadcrumbs.html" . }}
+        <div class="image-dentist-contact-banner"></div>
+        <div class="contact-container centered-content">
+            <h2>{{ i18n "stomatologiaDlaCiebie" }}</h2>
+            <p><strong>{{ .Site.Params.address_left.title | safeHTML }}</strong><br>
+               {{ .Site.Params.address_left.street | safeHTML }}<br>
+               {{ .Site.Params.address_left.city | safeHTML }}</p>
+            <p><a href="tel:+48519455989">{{ i18n "phone" }}: +48 519 455 989</a></p>
+            <div class="opening-hours">
+                <h3>{{ i18n "openingHours" }}</h3>
+                <p>{{ i18n "monday" }}: 10:00–20:00<br>
+                   {{ i18n "tuesday" }}: 10:00–20:00<br>
+                   {{ i18n "wednesday" }}: 10:00–20:00<br>
+                   {{ i18n "thursday" }}: 10:00–20:00<br>
+                   {{ i18n "friday" }}: 09:00–20:00<br>
+                   {{ i18n "saturday" }}: {{ i18n "closed" }}<br>
+                   {{ i18n "sunday" }}: {{ i18n "closed" }}</p>
+            </div>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1713993169474!6m8!1m7!1sCAoSLEFGMVFpcE9LUGQzYzRFZzBURWtMTm5pR3JOMUtwa3pibVpZMTRYZ1ppQ2Fj!2m2!1d53.31424889999999!2d15.04171220000001!3f58.80888931436568!4f2.7092939115827477!5f0.4000000000000002" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.649147469518!2d15.040107975932317!3d53.31372947227982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700b9be5fcd558d%3A0x19baa1313a64dff3!2sStomatologia%20dla%20Ciebie!5e0!3m2!1spl!2spl!4v1709677534651!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+
+</html>
+

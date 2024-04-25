@@ -1,108 +1,116 @@
 <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-    <div class="navbar navbar-default yamm {{ if .Site.Params.dropdown_mouse_over }}mouseover{{ end }}" role="navigation" id="navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ "/" | relLangURL }}">
-                    {{ if default false .Site.Params.disabled_logo }}
-                      <h4>{{ .Site.Params.logo_text }}</h4>
-                    {{ else }}
-                      <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm" />
-                      <img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm" />
-                    {{ end }}
-                    <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
-                </a>
-                <div class="navbar-buttons">
-                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">{{ i18n "navToggle" }}</span>
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-                </div>
-            </div>
-            <!--/.navbar-header -->
-
-            <div class="navbar-collapse collapse" id="navigation">
-                <ul class="nav navbar-nav navbar-right">
-                  {{ $current := . }}
-
-                  {{ range .Site.Menus.main.ByWeight }}
-                  {{ $topLevel := replace .URL "/" "" }}
-                  {{ $active := "" }}
-
-                  {{ if eq $current.RelPermalink .URL }}
-                    {{ $active = "active" }}
-                  {{ end }}
-
-                  {{ if eq $current.Type $topLevel }}
-                    {{ $active = "active" }}
-                  {{ end }}
-
-                  {{ if and (or (eq $current.RelPermalink .URL) (eq "term" $current.Kind)) (in (slice "page" "term") $current.Kind) }}
-                    {{ range (split .URL "/") }}
-                      {{ if eq "blog" . }}
-                        {{ $active = "active" }}
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-                  
-                  <style>                
-                    .navbar-right .dropdown-menu {
-                        min-width: auto; /* Adjust this value as needed */
-                    }
-                
-                    .navbar-right .dropdown-menu a strong {
-                        color: black; /* Change this to your desired text color */
-                    }
-                  </style>
-
-                  {{ if .HasChildren }}
-                    <!-- Check if the first child marks a menu section identifier -->
-                    {{ $hasSections := (hasPrefix (index .Children 0).Identifier "section.") }}
-                    <li class="dropdown{{ if $hasSections }} use-yamm yamm-fw{{end}} {{ $active }}">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
-                        {{ if $hasSections }}
-                        <ul class="dropdown-menu">
-                            <!-- Menu dropdown structure -->
-                        </ul>
-                        {{ else }}
-                        <ul class="dropdown-menu">
-                            <!-- Menu dropdown structure -->
-                        </ul>
-                        {{ end }}
-                    </li>
+  <div class="navbar navbar-default yamm {{ if .Site.Params.dropdown_mouse_over }}mouseover{{ end }}" role="navigation" id="navbar">
+      <div class="container">
+          <div class="navbar-header">
+            <div class="logo-flex-container">
+              <a class="navbar-brand home" href="{{ "/dentist" | relLangURL }}">
+                  {{ if default false .Site.Params.disabled_logo }}
+                    <h4>{{ .Site.Params.logo_text }}</h4>
                   {{ else }}
-                  <li class="dropdown {{ $active }}">
-                    <a href="{{ .URL }}">{{ .Name }}</a>
-                  </li>
+                    <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm" />
+                    <img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm" />
                   {{ end }}
+                  <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+              </a>
+            </div>
+              <div class="navbar-buttons">
+                  <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">{{ i18n "navToggle" }}</span>
+                      <i class="fas fa-align-justify"></i>
+                  </button>
+              </div>
+          </div>
+          <!--/.navbar-header -->
+
+          <div class="navbar-collapse collapse" id="navigation">
+              <ul class="nav navbar-nav navbar-right">
+                {{ $current := . }}
+
+                {{ range .Site.Menus.main.ByWeight }}
+                {{ $topLevel := replace .URL "/" "" }}
+                {{ $active := "" }}
+
+                {{ if eq $current.RelPermalink .URL }}
+                  {{ $active = "active" }}
+                {{ end }}
+
+                {{ if eq $current.Type $topLevel }}
+                  {{ $active = "active" }}
+                {{ end }}
+
+                {{ if and (or (eq $current.RelPermalink .URL) (eq "term" $current.Kind)) (in (slice "page" "term") $current.Kind) }}
+                  {{ range (split .URL "/") }}
+                    {{ if eq "blog" . }}
+                      {{ $active = "active" }}
+                    {{ end }}
                   {{ end }}
+                {{ end }}
+                
+                <style>                
+                  .navbar-right .dropdown-menu {
+                      min-width: auto; /* Adjust this value as needed */
+                  }
+              
+                  .navbar-right .dropdown-menu a strong {
+                      color: black; /* Change this to your desired text color */
+                  }
+                </style>
+                {{ end }}
 
-                  <!-- Dodana zakładka "O nas" -->
-                  <li class="dropdown">
-                    <a href="/dentist/about_as">O nas</a>
-                  </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ i18n "SERVICES"}} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ "/dentist/consultationAndResearch" | relLangURL}}">{{ i18n "CONSULTATION_AND_RESEARCH" }}</a></li>
+                  <li><a href="{{ "/dentist/endodontics" | relLangURL}}">{{ i18n "ENDODONTICS_ROOT_CANAL_TRETMENT" }}</a></li>
+                  <li><a href="{{ "/dentist/dentalSurgery" | relLangURL}}">{{ i18n "DENTAL_SURGERY" }}</a></li>
+                  <li><a href="{{ "/dentist/implants" | relLangURL}}">{{ i18n "IMPLANTS" }}</a></li>
+                  <li><a href="{{ "/dentist/conservaticeTreatment" | relLangURL}}">{{ i18n "CONSERVATICE_TREATMENT" }}</a></li>
+                  <li><a href="{{ "/dentist/pediatricDentistry" | relLangURL}}">{{ i18n "PEDIATRIC_DENTISTRY" }}</a></li>
+                  <li><a href="{{ "/dentist/prophylaxis" | relLangURL}}">{{ i18n "PROPHYLAXIS" }}</a></li>
+                  <li><a href="{{ "/dentist/teethWhitening" | relLangURL}}">{{ i18n "TEETH_WHITENING" }}</a></li>
+                </ul>
+                </li>
+                
 
-                  <!-- Istniejące elementy menu -->
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        {{ i18n "Select Language" }} <strong>{{ .Site.Language.Lang }}</strong> <span class="caret"></span> 
-                    </a>
-                    <ul class="dropdown-menu">
-                        {{ range .Site.Languages }}
-                            {{ if eq . $.Site.Language }}
-                                <li class="active"><a href="#" class="language"><strong>{{ .Lang }}</strong></a></li>
-                            {{ else }}
-                                {{ range $.Translations }}
-                                    <li><a href="{{ .Permalink }}"><strong>{{ .Language.Lang }}</strong></a></li>
-                                {{ end }}
-                            {{ end }}
-                        {{ end }}
-                    </ul>
-                  </li>
-                </ul>
-            </div>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </div>
+                <li class="dropdown">
+                  <a href="{{ "/dentist/about_as" | relLangURL}}">{{ i18n "ABOUT_AS" }}</a>
+                </li>
+
+                <li class="dropdown">
+                  <a href="{{ "/dentist/faq" | relLangURL}}">{{ i18n "FAQ" }}</a>
+                </li>
+
+                <li class="dropdown">
+                  <a href="{{ "/dentist/contact" | relLangURL}}">{{ i18n "CONTACT" }}</a>
+                </li>
+
+                <!-- Istniejące elementy menu -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <strong>{{ .Site.Language.Lang }}</strong> <span class="caret"></span> 
+                  </a>
+                  <ul class="dropdown-menu">
+                      {{ range .Site.Languages }}
+                          {{ if eq . $.Site.Language }}
+                              <li class="active"><a href="#" class="language"><strong>{{ .Lang }}</strong></a></li>
+                          {{ else }}
+                              {{ range $.Translations }}
+                                  <li><a href="{{ .Permalink }}"><strong>{{ .Language.Lang }}</strong></a></li>
+                              {{ end }}
+                          {{ end }}
+                      {{ end }}
+                  </ul>
+                </li>
+                <li>
+                  <a href="{{ "/" | relLangURL }}" class="home-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="12" width="13.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                  </a>    
+              </li>
+              </ul>
+          </div>
+              </ul>
+          </div>
+          <!--/.nav-collapse -->
+      </div>
+  </div>
 </header>

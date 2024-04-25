@@ -1,0 +1,53 @@
+<style>
+    .feature-image {
+        width: 80%; /* Ustaw szerokość obrazka na 100% szerokości kontenera */
+        height: auto; /* Automatyczna wysokość, aby zachować proporcje */
+        object-fit: cover; /* Opcjonalnie, jeśli chcesz kontrolować przycinanie obrazu */
+}
+
+
+</style>
+
+<section class="bar background-white">
+    <div class="container">
+        {{ $elements := default 3 .Site.Params.features.cols }}
+        {{ $features := sort .Site.Data.features.dentist "weight" }}
+
+        {{ $total_rows := div (len $features) $elements }}
+
+        {{ if gt (mod (len $features) $elements) 0 }}
+          {{ $total_rows = add $total_rows 1 }}
+        {{ end }}
+
+        {{ $lang := .Site.Language.Lang }}
+
+        {{ range $i, $sequence := seq $total_rows }}
+          <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+            {{ range $j, $sequence2 := (seq $elements) }}
+
+                {{ $feature_index := add (mul $i $elements) $j }}
+                {{ if lt $feature_index (len $features) }}
+                    {{ $element := index $features $feature_index }}
+
+                    <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+                        <div class="box-simple">
+                            {{ with $element.url }}
+                            <a href="{{ $element.url | relLangURL }}">
+                            {{ end }}
+                                <div class="icon">
+                                    <img src="{{ $element.image_url }}" alt="" class="feature-image">
+                                </div>                            
+                            {{ with $element.url }}
+                            </a>
+                            {{ end }}
+                            <h3>{{ if isset $element.name $lang }}{{ index $element.name $lang }}{{ else }}{{ $element.name | markdownify }}{{ end }}</h3>
+                            <p>{{ if isset $element.description $lang }}{{ index $element.description $lang }}{{ else }}{{ $element.description | markdownify }}{{ end }}</p>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+    </div>
+</section>
+

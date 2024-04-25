@@ -105,6 +105,18 @@
     <loc>http://localhost:1313/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/dentist/dentalsurgery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/dentalsurgery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/dentalsurgery/"
+                />
+  </url><url>
     <loc>http://localhost:1313/dentist/</loc>
     <xhtml:link
                 rel="alternate"
@@ -117,30 +129,66 @@
                 href="http://localhost:1313/dentist/"
                 />
   </url><url>
+    <loc>http://localhost:1313/dentist/endodontics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/endodontics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/endodontics/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dentist/implants/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/implants/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/implants/"
+                />
+  </url><url>
     <loc>http://localhost:1313/tags/ipsum/</loc>
   </url><url>
-    <loc>http://localhost:1313/dentist/about_as/</loc>
+    <loc>http://localhost:1313/dentist/consultationandresearch/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/about_as/"
+                href="http://localhost:1313/en/dentist/consultationandresearch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/about_as/"
+                href="http://localhost:1313/dentist/consultationandresearch/"
                 />
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/dentist/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
+                href="http://localhost:1313/en/dentist/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/contact/"
+                href="http://localhost:1313/dentist/contact/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dentist/conservaticetreatment/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/conservaticetreatment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/conservaticetreatment/"
                 />
   </url><url>
     <loc>http://localhost:1313/medicine/</loc>
@@ -191,6 +239,56 @@
                 rel="alternate"
                 hreflang="pl"
                 href="http://localhost:1313/medicine/about_as/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dentist/about_as/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/about_as/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/about_as/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dentist/prophylaxis/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/prophylaxis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/prophylaxis/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dentist/walk/</loc>
+  </url><url>
+    <loc>http://localhost:1313/dentist/pediatricdentistry/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/pediatricdentistry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/pediatricdentistry/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dentist/teethwhitening/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/teethwhitening/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/teethwhitening/"
                 />
   </url>
 </urlset>

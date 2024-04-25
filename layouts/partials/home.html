@@ -15,14 +15,14 @@
         overflow: hidden; /* Zapobiega wyświetlaniu się poza granicami podczas skalowania */
         transition: transform 3s ease; /* Animacja skalowania */
         position: relative; /* Pozycjonowanie względne dla pseudoelementu */
-        border-radius: 0px;
+        border-radius: 50px;
         box-shadow: 0 0 20px rgba(148, 79, 253, 0.3); /* Cień */
         margin-top: 60px;
     }
 
     .homepage.owl-carousel:hover {
         transform: scale(1.05); /* Skaluje element przy najechaniu myszką */
-        box-shadow: 0 0 20px rgba(219, 103, 227, 0.9); 
+        box-shadow: 0 0 20px rgba(128, 103, 227, 0.9); 
     }
 
 
@@ -43,7 +43,7 @@
                         data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
                         {{ range sort .Site.Data.dentist_carousel "weight" }}
                         <div class="item">
-                            <a href="/dentist">
+                            <a href="{{ "/dentist" | relLangURL }}">
                             <img class="img-responsive" src="/img/home/img_1.png" alt="">
                             {{ if .href }}
                             </a>
@@ -66,7 +66,7 @@
                         data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
                         {{ range sort .Site.Data.medical_carousel "weight" }}
                         <div class="item">
-                            <a href="/medicine">
+                            <a href="{{ "/medicine" | relLangURL }}">
                             <img class="img-responsive" src="/img/home/img_2.png" alt="">
                             {{ if .href }}
                             </a>

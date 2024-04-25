@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+<title>Medycyna dla Ciebie</title>
 
   <head>
     {{ partial "headers_medicine.html" . }}
@@ -10,9 +11,7 @@
 
     <div id="all">
 
-        {{ partial "top.html" . }}
-
-        {{ partial "nav.html" . }}
+        {{ partial "nav_medicine.html" . }}
 
         {{ partial "carousel.html" . }}
 
@@ -20,7 +19,7 @@
 
         {{ partial "testimonials.html" . }}
 
-        {{ partial "see_more.html" . }}
+        {{ partial "see_more_medicine.html" . }}
 
         {{ partial "recent_posts.html" . }}
 
