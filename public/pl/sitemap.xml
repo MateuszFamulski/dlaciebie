@@ -141,6 +141,30 @@
                 href="http://localhost:1313/dentist/endodontics/"
                 />
   </url><url>
+    <loc>http://localhost:1313/dentist/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/gallery/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/gallery/"
+                />
+  </url><url>
     <loc>http://localhost:1313/dentist/implants/</loc>
     <xhtml:link
                 rel="alternate"
@@ -177,6 +201,18 @@
                 rel="alternate"
                 hreflang="pl"
                 href="http://localhost:1313/dentist/contact/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/contact/"
                 />
   </url><url>
     <loc>http://localhost:1313/dentist/conservaticetreatment/</loc>

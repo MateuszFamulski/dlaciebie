@@ -4,50 +4,45 @@ description = "Często zadawane pytania"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
->Witamy w naszym gabinecie stomatologicznym! Zależy nam na zapewnieniu pacjentom kompleksowej i profesjonalnej opieki stomatologicznej. Poniżej znajdziesz kilka najczęściej zadawanych pytań, które mogą pomóc Ci lepiej zrozumieć naszą ofertę i procedury. Jeśli masz dodatkowe pytania lub potrzebujesz dalszych informacji, nie wahaj się skontaktować z naszym zespołem. Dziękujemy za zaufanie i wybór naszego gabinetu stomatologicznego.
+>Witamy w "Medycyna dla Ciebie"! Jesteśmy zespołem specjalistów z różnych dziedzin medycyny i estetyki. Tutaj znajdziesz odpowiedzi na pytania, które pomogą Ci lepiej zrozumieć zakres i specyfikę naszych usług. Jeżeli potrzebujesz dodatkowych informacji, skontaktuj się z nami bezpośrednio.
 >
->### 1. Jakie są godziny otwarcia gabinetu stomatologicznego?
+>### 1. Jak mogę umówić się na wizytę?
 >
->Nasz gabinet stomatologiczny jest otwarty od poniedziałku do piątku w godzinach od 10:00 do 20:00. Dodatkowo, oferujemy również wizyty w soboty w godzinach od 9:00 do 13:00 po wcześniejszym umówieniu.
+>Wizytę możesz umówić telefonicznie pod numerem +48 519 455 989, przez naszą stronę internetową lub osobiście w naszym gabinecie.
 >
->### 2. Jak umówić wizytę?
+>### 2. Czy oferujecie pakiety usług dla stałych klientów?
 >
->Możesz umówić wizytę dzwoniąc pod numer telefonu + 48 519 455 989 lub bezpośrednio w gabinecie.
+>Tak, dla naszych stałych klientów przygotowaliśmy specjalne pakiety usług, które pozwalają na korzystanie z różnorodnych zabiegów w atrakcyjnych cenach. Szczegóły pakietów są dostępne u naszych recepcjonistów.
 >
->### 3. Czy przyjmujecie pacjentów pilnych w nagłych przypadkach?
+>### 3. Jakie są godziny otwarcia gabinetu?
 >
->Tak, przyjmujemy pacjentów w nagłych przypadkach. Jeśli masz pilną potrzebę stomatologiczną, prosimy zadzwonić do nas jak najszybciej, a postaramy się umówić wizytę.
+>Pracujemy od poniedziałku do piątku w godzinach od 10:00 do 20:00.
 >
->### 4. Czy akceptujecie ubezpieczenia zdrowotne lub świadczenia NFZ?
+>### 4. Czy istnieje możliwość skorzystania z konsultacji online?
 >
->Nasz gabinet nie akceptuje ubezpieczeń zdrowotnych ani świadczeń NFZ. Wszystkie usługi są prywatne, a koszty są ustalane przed rozpoczęciem leczenia.
+>Oferujemy również konsultacje online dla wybranych usług. Aby dowiedzieć się więcej, skontaktuj się z nami.
 >
->### 5. Jakie usługi stomatologiczne oferujecie?
+>### 5. Jakie środki bezpieczeństwa obowiązują w gabinecie?
 >
->Nasz gabinet oferuje szeroki zakres usług stomatologicznych, w tym: przeglądy stomatologiczne, leczenie zębów, odbudowy protetyczne, wybielanie zębów, usuwanie kamienia nazębnego oraz wiele innych.
+>Stosujemy wszystkie zalecane środki bezpieczeństwa, w tym regularną dezynfekcję.
 >
->### 6. Jakie są koszty wizyt dentystycznych?
+>### 6. Czy w gabinecie dostępne jest znieczulenie?
 >
->Koszty wizyt dentystycznych mogą się różnić w zależności od rodzaju usługi. Przed rozpoczęciem leczenia dentysta przekaże Ci informacje dotyczące kosztów, a także omówi dostępne opcje płatności.
+>Tak, oferujemy różne rodzaje znieczuleń, w zależności od rodzaju zabiegu i indywidualnych preferencji pacjenta.
 >
->### 7. Czy oferujecie program profilaktyki stomatologicznej dla dzieci?
+>### 7. Czy mogę otrzymać fakturę VAT za usługi?
 >
->Tak, prowadzimy program profilaktyki stomatologicznej dla dzieci. Nasz zespół dentystyczny specjalizuje się w opiece nad najmłodszymi pacjentami, ucząc ich prawidłowej higieny jamy ustnej i regularnych kontroli.
+>Oczywiście, na życzenie wystawiamy faktury VAT.
 >
->### 8. Czy akceptujecie płatności kartą kredytową/debetową?
+>### 8. Czy oferujecie zabiegi na NFZ?
 >
->Tak, akceptujemy płatności kartą kredytową/debetową. Oferujemy wygodną opcję płatności kartą, co sprawia, że transakcje są szybkie i bezpieczne.
+>Obecnie wszystkie nasze usługi są oferowane w ramach prywatnej opieki zdrowotnej. Nie posiadamy kontraktu z NFZ.
 >
->### 9. Czy w gabinecie istnieje możliwość skorzystania z znieczulenia gazem rozweselającym?
+>### 9. Czy oferujecie usługi dla dzieci?
 >
->Tak, oferujemy możliwość znieczulenia gazem rozweselającym (MEOPA) podczas zabiegów stomatologicznych. Jeśli jesteś zainteresowany(a) tym rodzajem znieczulenia, poinformuj nas o tym podczas umawiania wizyty.
->
->### 10. Pytanie: Jakie są środki bezpieczeństwa w związku z radiacją rentgenowską?
->
->W naszym gabinecie stosujemy najnowocześniejsze technologie radiologiczne, minimalizujące narażenie na promieniowanie rentgenowskie. Dodatkowo, stosujemy środki ochronne, takie jak leadowe osłony, aby zminimalizować ryzyko.
+>Tak, zapewniamy specjalistyczną opiekę także dla najmłodszych pacjentów, w tym profilaktykę stomatologiczną oraz konsultacje dietetyczne dostosowane do potrzeb dzieci.
 >
 >
 >---
 >
->Jeśli nie znalazłeś odpowiedzi na swoje pytanie, skontaktuj się z nami, chętnie Ci pomożemy.
-
+>Jeśli masz inne pytania, nie zawahaj się ich zadać – nasz zespół chętnie pomoże!

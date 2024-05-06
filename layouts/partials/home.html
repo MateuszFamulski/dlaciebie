@@ -57,14 +57,14 @@
             </div>
             <!-- Druga karuzela (Medical) -->
             <div class="col-md-6 no-gap">
-                {{ if isset .Site.Data "medical_carousel" }}
-                {{ if gt (len .Site.Data.medical_carousel) 0 }}
+                {{ if isset .Site.Data "medicine_carousel" }}
+                {{ if gt (len .Site.Data.medicine_carousel) 0 }}
                 <div >
                     <div class="homepage owl-carousel"
                         data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
                         data-slide-speed= 10000
                         data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
-                        {{ range sort .Site.Data.medical_carousel "weight" }}
+                        {{ range sort .Site.Data.medicine_carousel "weight" }}
                         <div class="item">
                             <a href="{{ "/medicine" | relLangURL }}">
                             <img class="img-responsive" src="/img/home/img_2.png" alt="">

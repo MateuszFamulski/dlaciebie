@@ -22,6 +22,13 @@
       <description>W dzisiejszych czasach endodoncja, powszechnie znana jako leczenie kanałowe, stanowi kluczowy element współczesnej stomatologii zachowawczej. W naszym gabinecie stomatologicznym przykładamy ogromną wagę do tej specjalizacji, wykorzystując najnowsze dostępne technologie oraz mikroskop endodontyczny. Dzięki tym narzędziom jesteśmy w stanie z ogromną precyzją usunąć zainfekowaną tkankę z wnętrza zęba, co pozwala na jego zachowanie i ochronę przed koniecznością ekstrakcji.&#xA;Jak Działa Leczenie Kanałowe? Leczenie kanałowe polega na usunięciu zainfekowanej miazgi zębowej – tkanki znajdującej się wewnątrz zęba, zawierającej nerwy i naczynia krwionośne.</description>
     </item>
     <item>
+      <title>Galeria zdjęć</title>
+      <link>http://localhost:1313/dentist/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dentist/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_dentist.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
       <title>Implanty: Nowoczesne Rozwiązanie dla Brakujących Zębów</title>
       <link>http://localhost:1313/dentist/implants/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

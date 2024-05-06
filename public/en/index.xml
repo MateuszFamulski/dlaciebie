@@ -29,6 +29,13 @@
       <description>{{ partial &amp;ldquo;contact_dentist.html&amp;rdquo; . }}</description>
     </item>
     <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/en/medicine/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/medicine/contact/</guid>
+      <description>{{ partial &amp;ldquo;contact_medicine.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
       <title>Dental Surgery: Advanced Solutions for Your Health</title>
       <link>http://localhost:1313/en/dentist/dentalsurgery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -54,7 +61,7 @@
       <link>http://localhost:1313/en/medicine/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/medicine/faq/</guid>
-      <description>Welcome to our dental office! We are committed to providing comprehensive and professional dental care to our patients. Below, you will find some frequently asked questions that may help you better understand our offerings and procedures. If you have additional questions or need further information, feel free to contact our team. Thank you for trusting and choosing our dental office.&#xA;1. What are the opening hours of the dental office?</description>
+      <description>Welcome to &amp;ldquo;Medicine for You&amp;rdquo;! We are a team of specialists in various fields of medicine and aesthetics. Here you will find answers to questions that will help you better understand the scope and specifics of our services. If you need additional information, please contact us directly.&#xA;1. How can I make an appointment? You can make an appointment by phone at +48 519 455 989, through our website or in person at our office.</description>
     </item>
     <item>
       <title>Implants: A Modern Solution for Missing Teeth</title>
@@ -83,6 +90,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/dentist/pediatricdentistry/</guid>
       <description>Understanding the needs and expectations of our youngest patients is a key part of our practice&amp;rsquo;s dental offerings. We know how important it is to make the first visits to the dentist a positive one, which can definitely influence the child&amp;rsquo;s future approach to oral health care. That&amp;rsquo;s why our pediatric dentistry offerings are designed to provide children with a comfortable and stress-free experience.&#xA;Adaptive Visits The first step in establishing a positive relationship with a young patient is adaptive visits.</description>
+    </item>
+    <item>
+      <title>Photo gallery</title>
+      <link>http://localhost:1313/en/dentist/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/dentist/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_dentist.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
+      <title>Photo gallery</title>
+      <link>http://localhost:1313/en/medicine/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/medicine/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_medicine.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Prevention: the Basis of a Healthy Smile</title>

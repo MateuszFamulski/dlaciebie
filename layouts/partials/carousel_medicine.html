@@ -1,0 +1,86 @@
+<section>
+    <div class="home-carousel">
+        <div class="dark-mask"></div>
+        <div class="container">
+            <div class="homepage owl-carousel"
+                data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
+                data-slide-speed= 10000
+                data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
+                {{ range sort .Site.Data.medicine_carousel "weight" }}
+                <div class="item">
+                    {{ if .href }}
+                    <a href="{{ .href }}">
+                    {{ end }}
+                        <div class="row">
+                            {{ if eq .weight 1 }}
+                            <div class="col-sm-5 right" >
+                                <h2> {{i18n "CAROUSEL2_TITLE"}} </h2>
+                                <div style="margin-bottom: 20px;">
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT1"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT2"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT3"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT4"}}</div>
+                                    <!-- <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT5"}}</div> -->
+                                </div>                                
+                            </div>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="/img/carousel/fizjoterapia.png" alt="">
+                            </div>
+                                {{end}}
+
+                            {{ if eq .weight 2 }}
+                            <div class="col-sm-5 right">
+                                <h2> {{i18n "CAROUSEL2_TITLE"}} </h2>
+                                <div style="margin-bottom: 20px;">
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT1"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT2"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT3"}}</div>
+                                    <!-- <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT4"}}</div> -->
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL2_TEXT5"}}</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="/img/carousel/owoce2.png" alt="">
+                            </div>
+                                {{end}} 
+
+                            {{ if eq .weight 3 }}
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="/img/carousel/fizjoterapia.png" alt="">
+                            </div>
+                            <div class="col-sm-5 left">
+                                <h2> {{i18n "CAROUSEL3_TITLE"}} </h2>
+                                <div style="margin-bottom: 20px;">
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL3_TEXT1"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL3_TEXT2"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL3_TEXT3"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL3_TEXT4"}}</div>
+                                </div>
+                            </div>
+                                {{end}}
+                                
+                            {{ if eq .weight 4 }}
+                            <div class="col-sm-5 right">
+                                <h2> {{i18n "CAROUSEL4_TITLE"}} </h2>
+                                <div style="margin-bottom: 20px;">
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL4_TEXT1"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL4_TEXT2"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL4_TEXT3"}}</div>
+                                    <div style="margin-bottom: 20px; color: whitesmoke; font-size: 20px; font-weight: bold;">{{i18n "CAROUSEL4_TEXT4"}}</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="/img/carousel/laser.png" alt="">
+                            </div>
+                                {{end}}
+                        </div>
+                    {{ if .href }}
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            <!-- /.project owl-slider -->
+        </div>
+    </div>
+</section>

@@ -203,22 +203,22 @@
   translation: "Here you will find caring care and the way to a smile full of health and self-confidence."
 
 - id: CAROUSEL2_TITLE
-  translation: "IDEAL WEIGHT, FULL OF ENERGY!"
+  translation: "Let's talk about Health and Smile!"
 
 - id: CAROUSEL2_TEXT1
-  translation: "Do you want to lose weight?"
+  translation: "Want to improve your health and well-being?"
 
 - id: CAROUSEL2_TEXT2
-  translation: "Do you have digestive problems?"
+  translation: "Do you need support from specialists?"
 
 - id: CAROUSEL2_TEXT3
-  translation: "We offer comprehensive medical care that will help you achieve your dream figure and health."
+  translation: "We offer a wide range of medical services, from dentistry to modern aesthetic treatments."
 
 - id: CAROUSEL2_TEXT4
-  translation: "We invite you to medicine for you!"
+  translation: "Welcome to Medicine for You - a place where patient care comes first."
 
 - id: CAROUSEL2_TEXT5
-  translation: "Change bad eating habits and start living healthy!"
+  translation: "From physiotherapy to effective laser hair removal, you'll find comprehensive medical care with us."
 
 - id: CAROUSEL3_TITLE
   translation: "REGAIN FREEDOM OF MOVEMENT!"
@@ -285,3 +285,6 @@
 
 - id: "CONTACT"
   translation: "Contact" 
+
+- id: "GALLERY"
+  translation: "Gallery"

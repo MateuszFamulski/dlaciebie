@@ -8,11 +8,18 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/en/medicine/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/en/medicine/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/medicine/contact/</guid>
+      <description>{{ partial &amp;ldquo;contact_medicine.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
       <title>FAQ</title>
       <link>http://localhost:1313/en/medicine/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/medicine/faq/</guid>
-      <description>Welcome to our dental office! We are committed to providing comprehensive and professional dental care to our patients. Below, you will find some frequently asked questions that may help you better understand our offerings and procedures. If you have additional questions or need further information, feel free to contact our team. Thank you for trusting and choosing our dental office.&#xA;1. What are the opening hours of the dental office?</description>
+      <description>Welcome to &amp;ldquo;Medicine for You&amp;rdquo;! We are a team of specialists in various fields of medicine and aesthetics. Here you will find answers to questions that will help you better understand the scope and specifics of our services. If you need additional information, please contact us directly.&#xA;1. How can I make an appointment? You can make an appointment by phone at +48 519 455 989, through our website or in person at our office.</description>
     </item>
     <item>
       <title>Modern Medical Care in Stargard</title>
@@ -20,6 +27,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/medicine/about_as/</guid>
       <description>Welcome to Medicine for You - a place where caring for your health is our top priority. We are a modern medical facility located at 59/2 Niepodległości Street in picturesque Stargard. Our team of doctors and medical staff have combined their passion for their work with the latest medical advances to provide our patients with the highest level of care.&#xA;Our Mission Our mission is to provide comprehensive medical care for every patient.</description>
+    </item>
+    <item>
+      <title>Photo gallery</title>
+      <link>http://localhost:1313/en/medicine/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/medicine/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_medicine.html&amp;rdquo; . }}</description>
     </item>
   </channel>
 </rss>

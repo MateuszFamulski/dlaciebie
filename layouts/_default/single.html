@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  <if .medicine>
+    {{ if in .RelPermalink "/medicine/" }}
     <head>
       {{ partial "headers_medicine.html" . }}
       {{ partial "custom_headers.html" . }}
     </head>
-  <end>
-  <if .dentist>
+    {{ else if in .RelPermalink "/dentist/" }}
     <head>
       {{ partial "headers_dentist.html" . }}
       {{ partial "custom_headers.html" . }}
     </head>
-  <end>
+    {{ end }}
 
     <style>
 
@@ -99,6 +98,8 @@
 
     </style>
 
+
+{{ if in .RelPermalink "/dentist/" }}
   <body>
 
     <div id="dentist">
@@ -176,4 +177,69 @@
     {{ partial "scripts.html" . }}
 
   </body>
+{{ else if in .RelPermalink "/medicine/" }}
+  <body>
+
+    <div id="medicine">
+        {{ partial "top.html" . }}
+
+        {{ partial "nav_medicine.html" . }}
+
+        <!-- {{ partial "breadcrumbs.html" . }} -->
+
+        <div id="content">
+          
+
+          
+
+            {{ if isset .Params "id" }}
+
+              {{ partial .Params.id . }}
+
+            {{ else }}
+
+            <div class="container">
+              {{ partial "breadcrumbs.html" . }}
+
+              {{ if eq .RelPermalink "/medicine/about_as/" }}
+              <div class="image-medicine-aboutus-banner"></div>
+              {{ else if eq .RelPermalink "/medicine/faq/"}}
+              <div class="image-medicine-faq-banner"></div>
+              {{ else }}
+
+
+              {{ end }}
+
+                <div class="row">
+                  
+                    <div class="col-md-12">
+
+                        <div>
+
+                          {{ .Content }}
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+
+            {{ end }}
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+{{ end }}
+
+
 </html>

@@ -62,6 +62,18 @@
                 href="http://localhost:1313/en/dentist/contact/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/medicine/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/contact/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/dentist/dentalsurgery/</loc>
     <xhtml:link
                 rel="alternate"
@@ -180,6 +192,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/dentist/pediatricdentistry/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/dentist/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/dentist/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/dentist/gallery/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/medicine/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/gallery/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/dentist/prophylaxis/</loc>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <title>Stomatologia dla Ciebie</title>
+    {{ partial "headers_dentist.html" . }}
+    {{ partial "custom_headers.html" . }}
+    <style>
+        .gallery {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .thumbnails {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+            height: 600px; /* Adjust height as necessary */
+            overflow-y: auto; /* Enables scrolling */
+        }
+
+        .thumbnails img {
+            width: 200px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .main-image {
+            position: relative;
+            width: 80%;
+        }
+
+        .main-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: black;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .left-arrow {
+            left: 10px;
+        }
+
+        .right-arrow {
+            right: 10px;
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 600px) {
+            .gallery {
+                flex-direction: column;
+            }
+            
+            .thumbnails {
+                height: auto;
+                margin-right: 0;
+                overflow: visible;
+            }
+
+            .thumbnails img {
+                width: auto; /* Adjust based on your preference */
+            }
+
+            .main-image, .arrow {
+                display: none; /* Hide main image and arrows */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="margin-bottom: 20px;" class="container">
+        {{ partial "breadcrumbs.html" . }}
+        <div class="gallery">
+            <div class="thumbnails">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-125.jpg" alt="Image 1" data-image="/img/photo/Stomatologia_Stargard_2048px-125.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-126.jpg" alt="Image 2" data-image="/img/photo/Stomatologia_Stargard_2048px-126.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-127.jpg" alt="Image 3" data-image="/img/photo/Stomatologia_Stargard_2048px-127.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-128.jpg" alt="Image 4" data-image="/img/photo/Stomatologia_Stargard_2048px-128.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-129.jpg" alt="Image 5" data-image="/img/photo/Stomatologia_Stargard_2048px-129.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-130.jpg" alt="Image 6" data-image="/img/photo/Stomatologia_Stargard_2048px-130.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-131.jpg" alt="Image 7" data-image="/img/photo/Stomatologia_Stargard_2048px-131.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-132.jpg" alt="Image 8" data-image="/img/photo/Stomatologia_Stargard_2048px-132.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-133.jpg" alt="Image 9" data-image="/img/photo/Stomatologia_Stargard_2048px-133.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-134.jpg" alt="Image 10" data-image="/img/photo/Stomatologia_Stargard_2048px-134.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-135.jpg" alt="Image 11" data-image="/img/photo/Stomatologia_Stargard_2048px-135.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-136.jpg" alt="Image 12" data-image="/img/photo/Stomatologia_Stargard_2048px-136.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-137.jpg" alt="Image 13" data-image="/img/photo/Stomatologia_Stargard_2048px-137.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-138.jpg" alt="Image 14" data-image="/img/photo/Stomatologia_Stargard_2048px-138.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-139.jpg" alt="Image 15" data-image="/img/photo/Stomatologia_Stargard_2048px-139.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-140.jpg" alt="Image 16" data-image="/img/photo/Stomatologia_Stargard_2048px-140.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-141.jpg" alt="Image 17" data-image="/img/photo/Stomatologia_Stargard_2048px-141.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-142.jpg" alt="Image 18" data-image="/img/photo/Stomatologia_Stargard_2048px-142.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-143.jpg" alt="Image 19" data-image="/img/photo/Stomatologia_Stargard_2048px-143.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-144.jpg" alt="Image 20" data-image="/img/photo/Stomatologia_Stargard_2048px-144.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-145.jpg" alt="Image 21" data-image="/img/photo/Stomatologia_Stargard_2048px-145.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-146.jpg" alt="Image 22" data-image="/img/photo/Stomatologia_Stargard_2048px-146.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-147.jpg" alt="Image 23" data-image="/img/photo/Stomatologia_Stargard_2048px-147.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-148.jpg" alt="Image 24" data-image="/img/photo/Stomatologia_Stargard_2048px-148.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-149.jpg" alt="Image 25" data-image="/img/photo/Stomatologia_Stargard_2048px-149.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-150.jpg" alt="Image 26" data-image="/img/photo/Stomatologia_Stargard_2048px-150.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-151.jpg" alt="Image 27" data-image="/img/photo/Stomatologia_Stargard_2048px-151.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-152.jpg" alt="Image 28" data-image="/img/photo/Stomatologia_Stargard_2048px-152.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-153.jpg" alt="Image 29" data-image="/img/photo/Stomatologia_Stargard_2048px-153.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-154.jpg" alt="Image 30" data-image="/img/photo/Stomatologia_Stargard_2048px-154.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-155.jpg" alt="Image 31" data-image="/img/photo/Stomatologia_Stargard_2048px-155.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-156.jpg" alt="Image 32" data-image="/img/photo/Stomatologia_Stargard_2048px-156.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-157.jpg" alt="Image 33" data-image="/img/photo/Stomatologia_Stargard_2048px-157.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-158.jpg" alt="Image 34" data-image="/img/photo/Stomatologia_Stargard_2048px-158.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-159.jpg" alt="Image 35" data-image="/img/photo/Stomatologia_Stargard_2048px-159.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-160.jpg" alt="Image 36" data-image="/img/photo/Stomatologia_Stargard_2048px-160.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-161.jpg" alt="Image 37" data-image="/img/photo/Stomatologia_Stargard_2048px-161.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-162.jpg" alt="Image 38" data-image="/img/photo/Stomatologia_Stargard_2048px-162.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-163.jpg" alt="Image 39" data-image="/img/photo/Stomatologia_Stargard_2048px-163.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-164.jpg" alt="Image 40" data-image="/img/photo/Stomatologia_Stargard_2048px-164.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-165.jpg" alt="Image 41" data-image="/img/photo/Stomatologia_Stargard_2048px-165.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-166.jpg" alt="Image 42" data-image="/img/photo/Stomatologia_Stargard_2048px-166.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-167.jpg" alt="Image 43" data-image="/img/photo/Stomatologia_Stargard_2048px-167.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-168.jpg" alt="Image 44" data-image="/img/photo/Stomatologia_Stargard_2048px-168.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-169.jpg" alt="Image 45" data-image="/img/photo/Stomatologia_Stargard_2048px-169.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-170.jpg" alt="Image 46" data-image="/img/photo/Stomatologia_Stargard_2048px-170.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-171.jpg" alt="Image 47" data-image="/img/photo/Stomatologia_Stargard_2048px-171.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-172.jpg" alt="Image 48" data-image="/img/photo/Stomatologia_Stargard_2048px-172.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-173.jpg" alt="Image 49" data-image="/img/photo/Stomatologia_Stargard_2048px-173.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-174.jpg" alt="Image 50" data-image="/img/photo/Stomatologia_Stargard_2048px-174.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-175.jpg" alt="Image 51" data-image="/img/photo/Stomatologia_Stargard_2048px-175.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-176.jpg" alt="Image 52" data-image="/img/photo/Stomatologia_Stargard_2048px-176.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-177.jpg" alt="Image 53" data-image="/img/photo/Stomatologia_Stargard_2048px-177.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-178.jpg" alt="Image 54" data-image="/img/photo/Stomatologia_Stargard_2048px-178.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-179.jpg" alt="Image 55" data-image="/img/photo/Stomatologia_Stargard_2048px-179.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-180.jpg" alt="Image 56" data-image="/img/photo/Stomatologia_Stargard_2048px-180.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-181.jpg" alt="Image 57" data-image="/img/photo/Stomatologia_Stargard_2048px-181.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-182.jpg" alt="Image 58" data-image="/img/photo/Stomatologia_Stargard_2048px-182.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-183.jpg" alt="Image 59" data-image="/img/photo/Stomatologia_Stargard_2048px-183.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-184.jpg" alt="Image 60" data-image="/img/photo/Stomatologia_Stargard_2048px-184.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-185.jpg" alt="Image 61" data-image="/img/photo/Stomatologia_Stargard_2048px-185.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-186.jpg" alt="Image 62" data-image="/img/photo/Stomatologia_Stargard_2048px-186.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-187.jpg" alt="Image 63" data-image="/img/photo/Stomatologia_Stargard_2048px-187.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-188.jpg" alt="Image 64" data-image="/img/photo/Stomatologia_Stargard_2048px-188.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-189.jpg" alt="Image 65" data-image="/img/photo/Stomatologia_Stargard_2048px-189.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-190.jpg" alt="Image 66" data-image="/img/photo/Stomatologia_Stargard_2048px-190.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-191.jpg" alt="Image 67" data-image="/img/photo/Stomatologia_Stargard_2048px-191.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-192.jpg" alt="Image 68" data-image="/img/photo/Stomatologia_Stargard_2048px-192.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-193.jpg" alt="Image 69" data-image="/img/photo/Stomatologia_Stargard_2048px-193.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-194.jpg" alt="Image 70" data-image="/img/photo/Stomatologia_Stargard_2048px-194.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-195.jpg" alt="Image 71" data-image="/img/photo/Stomatologia_Stargard_2048px-195.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-196.jpg" alt="Image 72" data-image="/img/photo/Stomatologia_Stargard_2048px-196.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-197.jpg" alt="Image 73" data-image="/img/photo/Stomatologia_Stargard_2048px-197.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-198.jpg" alt="Image 74" data-image="/img/photo/Stomatologia_Stargard_2048px-198.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-199.jpg" alt="Image 75" data-image="/img/photo/Stomatologia_Stargard_2048px-199.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-200.jpg" alt="Image 76" data-image="/img/photo/Stomatologia_Stargard_2048px-200.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-201.jpg" alt="Image 77" data-image="/img/photo/Stomatologia_Stargard_2048px-201.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-202.jpg" alt="Image 78" data-image="/img/photo/Stomatologia_Stargard_2048px-202.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-203.jpg" alt="Image 79" data-image="/img/photo/Stomatologia_Stargard_2048px-203.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-204.jpg" alt="Image 80" data-image="/img/photo/Stomatologia_Stargard_2048px-204.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-205.jpg" alt="Image 81" data-image="/img/photo/Stomatologia_Stargard_2048px-205.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-206.jpg" alt="Image 82" data-image="/img/photo/Stomatologia_Stargard_2048px-206.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-207.jpg" alt="Image 83" data-image="/img/photo/Stomatologia_Stargard_2048px-207.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-208.jpg" alt="Image 84" data-image="/img/photo/Stomatologia_Stargard_2048px-208.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-209.jpg" alt="Image 85" data-image="/img/photo/Stomatologia_Stargard_2048px-209.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-210.jpg" alt="Image 86" data-image="/img/photo/Stomatologia_Stargard_2048px-210.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-211.jpg" alt="Image 87" data-image="/img/photo/Stomatologia_Stargard_2048px-211.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-212.jpg" alt="Image 88" data-image="/img/photo/Stomatologia_Stargard_2048px-212.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-213.jpg" alt="Image 89" data-image="/img/photo/Stomatologia_Stargard_2048px-213.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-214.jpg" alt="Image 90" data-image="/img/photo/Stomatologia_Stargard_2048px-214.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-215.jpg" alt="Image 91" data-image="/img/photo/Stomatologia_Stargard_2048px-215.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-216.jpg" alt="Image 92" data-image="/img/photo/Stomatologia_Stargard_2048px-216.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-217.jpg" alt="Image 93" data-image="/img/photo/Stomatologia_Stargard_2048px-217.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-218.jpg" alt="Image 94" data-image="/img/photo/Stomatologia_Stargard_2048px-218.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-219.jpg" alt="Image 95" data-image="/img/photo/Stomatologia_Stargard_2048px-219.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-220.jpg" alt="Image 96" data-image="/img/photo/Stomatologia_Stargard_2048px-220.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-221.jpg" alt="Image 97" data-image="/img/photo/Stomatologia_Stargard_2048px-221.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-222.jpg" alt="Image 98" data-image="/img/photo/Stomatologia_Stargard_2048px-222.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-223.jpg" alt="Image 99" data-image="/img/photo/Stomatologia_Stargard_2048px-223.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-224.jpg" alt="Image 100" data-image="/img/photo/Stomatologia_Stargard_2048px-224.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-225.jpg" alt="Image 101" data-image="/img/photo/Stomatologia_Stargard_2048px-225.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-226.jpg" alt="Image 102" data-image="/img/photo/Stomatologia_Stargard_2048px-226.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-227.jpg" alt="Image 103" data-image="/img/photo/Stomatologia_Stargard_2048px-227.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-228.jpg" alt="Image 104" data-image="/img/photo/Stomatologia_Stargard_2048px-228.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-229.jpg" alt="Image 105" data-image="/img/photo/Stomatologia_Stargard_2048px-229.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-230.jpg" alt="Image 106" data-image="/img/photo/Stomatologia_Stargard_2048px-230.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-231.jpg" alt="Image 107" data-image="/img/photo/Stomatologia_Stargard_2048px-231.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-232.jpg" alt="Image 108" data-image="/img/photo/Stomatologia_Stargard_2048px-232.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-233.jpg" alt="Image 109" data-image="/img/photo/Stomatologia_Stargard_2048px-233.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-234.jpg" alt="Image 110" data-image="/img/photo/Stomatologia_Stargard_2048px-234.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-235.jpg" alt="Image 111" data-image="/img/photo/Stomatologia_Stargard_2048px-235.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-236.jpg" alt="Image 112" data-image="/img/photo/Stomatologia_Stargard_2048px-236.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-237.jpg" alt="Image 113" data-image="/img/photo/Stomatologia_Stargard_2048px-237.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-238.jpg" alt="Image 114" data-image="/img/photo/Stomatologia_Stargard_2048px-238.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-239.jpg" alt="Image 115" data-image="/img/photo/Stomatologia_Stargard_2048px-239.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-240.jpg" alt="Image 116" data-image="/img/photo/Stomatologia_Stargard_2048px-240.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-241.jpg" alt="Image 117" data-image="/img/photo/Stomatologia_Stargard_2048px-241.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-242.jpg" alt="Image 118" data-image="/img/photo/Stomatologia_Stargard_2048px-242.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-243.jpg" alt="Image 119" data-image="/img/photo/Stomatologia_Stargard_2048px-243.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-244.jpg" alt="Image 120" data-image="/img/photo/Stomatologia_Stargard_2048px-244.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-245.jpg" alt="Image 121" data-image="/img/photo/Stomatologia_Stargard_2048px-245.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-246.jpg" alt="Image 122" data-image="/img/photo/Stomatologia_Stargard_2048px-246.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-247.jpg" alt="Image 123" data-image="/img/photo/Stomatologia_Stargard_2048px-247.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-248.jpg" alt="Image 124" data-image="/img/photo/Stomatologia_Stargard_2048px-248.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-249.jpg" alt="Image 125" data-image="/img/photo/Stomatologia_Stargard_2048px-249.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-250.jpg" alt="Image 126" data-image="/img/photo/Stomatologia_Stargard_2048px-250.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-251.jpg" alt="Image 127" data-image="/img/photo/Stomatologia_Stargard_2048px-251.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-252.jpg" alt="Image 128" data-image="/img/photo/Stomatologia_Stargard_2048px-252.jpg">
+                <img src="/img/photo/Stomatologia_Stargard_2048px-253.jpg" alt="Image 129" data-image="/img/photo/Stomatologia_Stargard_2048px-253.jpg">
+            </div>
+            <div class="main-image">
+                <button class="arrow left-arrow">&lt;</button>
+                <img src="/img/photo/Stomatologia_Stargard_2048px-179.jpg" alt="Image 55">
+                <button class="arrow right-arrow">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const thumbnails = document.querySelectorAll(".thumbnails img");
+            const mainImage = document.querySelector(".main-image img");
+            const leftArrow = document.querySelector(".left-arrow");
+            const rightArrow = document.querySelector(".right-arrow");
+
+            let currentImageIndex = 0;
+
+            thumbnails.forEach((thumbnail, index) => {
+                thumbnail.addEventListener("click", function() {
+                    currentImageIndex = index;
+                    mainImage.src = this.dataset.image;
+                });
+            });
+
+            leftArrow.addEventListener("click", () => {
+                if (currentImageIndex > 0) {
+                    currentImageIndex--;
+                    mainImage.src = thumbnails[currentImageIndex].dataset.image;
+                }
+            });
+
+            rightArrow.addEventListener("click", () => {
+                if (currentImageIndex < thumbnails.length - 1) {
+                    currentImageIndex++;
+                    mainImage.src = thumbnails[currentImageIndex].dataset.image;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

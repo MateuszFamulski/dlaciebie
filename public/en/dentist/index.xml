@@ -71,6 +71,13 @@
       <description>Understanding the needs and expectations of our youngest patients is a key part of our practice&amp;rsquo;s dental offerings. We know how important it is to make the first visits to the dentist a positive one, which can definitely influence the child&amp;rsquo;s future approach to oral health care. That&amp;rsquo;s why our pediatric dentistry offerings are designed to provide children with a comfortable and stress-free experience.&#xA;Adaptive Visits The first step in establishing a positive relationship with a young patient is adaptive visits.</description>
     </item>
     <item>
+      <title>Photo gallery</title>
+      <link>http://localhost:1313/en/dentist/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/dentist/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_dentist.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
       <title>Prevention: the Basis of a Healthy Smile</title>
       <link>http://localhost:1313/en/dentist/prophylaxis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

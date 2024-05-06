@@ -148,6 +148,9 @@
 - id: seeOpinionsSubtitleDentist
   translation: "Wasze Opinie To Nasze Najlepsze Referencje w Świecie Opieki Stomatologicznej. Sprawdź, Co Mówią Nasi Klienci!"
 
+- id: seeOpinionsSubtitleMedicine
+  translation: "Wasze Opinie To Nasze Najlepsze Referencje w Świecie Opieki Medycznej. Sprawdź, Co Mówią Nasi Klienci!"
+
 - id: workingHours
   translation: "Godziny pracy"
 
@@ -203,22 +206,22 @@
   translation: "U nas znajdziesz troskliwą opiekę i drogę do uśmiechu pełnego zdrowia i pewności siebie."
 
 - id: CAROUSEL2_TITLE
-  translation: "IDEALNA WAGA, PEŁNA ENERGIA!"
+  translation: "ZadmajMY o Zdrowie i Uśmiech!"
 
 - id: CAROUSEL2_TEXT1
-  translation: "Chcesz schudnąć?"
+  translation: "Chcesz poprawić swoje zdrowie i samopoczucie?"
 
 - id: CAROUSEL2_TEXT2
-  translation: "Masz problemy z trawieniem?"
+  translation: "Potrzebujesz wsparcia specjalistów?"
 
 - id: CAROUSEL2_TEXT3
-  translation: "Oferujemy kompleksową opiekę medyczną, która pomoże Ci osiągnąć wymarzoną sylwetkę i zdrowie."
+  translation: "Oferujemy szeroki zakres usług medycznych, od stomatologii po nowoczesne zabiegi estetyczne."
 
 - id: CAROUSEL2_TEXT4
-  translation: "Zapraszamy do medycyny dla Ciebie!"
+  translation: "Zapraszamy do Medycyny dla Ciebie — miejsca, gdzie troska o pacjenta jest na pierwszym miejscu."
 
 - id: CAROUSEL2_TEXT5
-  translation: "Zmień złe nawyki żywieniowe i zacznij żyć zdrowo!"
+  translation: "Od fizjoterapii po skuteczną depilację laserową — u nas znajdziesz kompleksową opiekę medyczną."
 
 - id: CAROUSEL3_TITLE
   translation: "ODZYSKAJ SWOBODĘ RUCHU!"
@@ -285,3 +288,6 @@
 
 - id: "CONTACT"
   translation: "Kontakt"
+
+- id: "GALLERY"
+  translation: "Galeria"

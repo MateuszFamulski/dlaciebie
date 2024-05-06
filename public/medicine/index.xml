@@ -8,11 +8,25 @@
     <language>pl</language>
     <atom:link href="http://localhost:1313/medicine/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Galeria zdjęć</title>
+      <link>http://localhost:1313/medicine/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/medicine/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_medicine.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>http://localhost:1313/medicine/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/medicine/contact/</guid>
+      <description>{{ partial &amp;ldquo;contact_medicine.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
       <title>Najczęstrze pytania</title>
       <link>http://localhost:1313/medicine/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/medicine/faq/</guid>
-      <description>Witamy w naszym gabinecie stomatologicznym! Zależy nam na zapewnieniu pacjentom kompleksowej i profesjonalnej opieki stomatologicznej. Poniżej znajdziesz kilka najczęściej zadawanych pytań, które mogą pomóc Ci lepiej zrozumieć naszą ofertę i procedury. Jeśli masz dodatkowe pytania lub potrzebujesz dalszych informacji, nie wahaj się skontaktować z naszym zespołem. Dziękujemy za zaufanie i wybór naszego gabinetu stomatologicznego.&#xA;1. Jakie są godziny otwarcia gabinetu stomatologicznego? Nasz gabinet stomatologiczny jest otwarty od poniedziałku do piątku w godzinach od 10:00 do 20:00.</description>
+      <description>Witamy w &amp;ldquo;Medycyna dla Ciebie&amp;rdquo;! Jesteśmy zespołem specjalistów z różnych dziedzin medycyny i estetyki. Tutaj znajdziesz odpowiedzi na pytania, które pomogą Ci lepiej zrozumieć zakres i specyfikę naszych usług. Jeżeli potrzebujesz dodatkowych informacji, skontaktuj się z nami bezpośrednio.&#xA;1. Jak mogę umówić się na wizytę? Wizytę możesz umówić telefonicznie pod numerem +48 519 455 989, przez naszą stronę internetową lub osobiście w naszym gabinecie.&#xA;2. Czy oferujecie pakiety usług dla stałych klientów?</description>
     </item>
     <item>
       <title>Nowoczesna Opieka Medyczna w Stargardzie</title>

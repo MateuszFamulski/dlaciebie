@@ -58,6 +58,20 @@
       <description>W dzisiejszych czasach endodoncja, powszechnie znana jako leczenie kanałowe, stanowi kluczowy element współczesnej stomatologii zachowawczej. W naszym gabinecie stomatologicznym przykładamy ogromną wagę do tej specjalizacji, wykorzystując najnowsze dostępne technologie oraz mikroskop endodontyczny. Dzięki tym narzędziom jesteśmy w stanie z ogromną precyzją usunąć zainfekowaną tkankę z wnętrza zęba, co pozwala na jego zachowanie i ochronę przed koniecznością ekstrakcji.&#xA;Jak Działa Leczenie Kanałowe? Leczenie kanałowe polega na usunięciu zainfekowanej miazgi zębowej – tkanki znajdującej się wewnątrz zęba, zawierającej nerwy i naczynia krwionośne.</description>
     </item>
     <item>
+      <title>Galeria zdjęć</title>
+      <link>http://localhost:1313/dentist/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dentist/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_dentist.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
+      <title>Galeria zdjęć</title>
+      <link>http://localhost:1313/medicine/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/medicine/gallery/</guid>
+      <description>{{ partial &amp;ldquo;gallery_medicine.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
       <title>Implanty: Nowoczesne Rozwiązanie dla Brakujących Zębów</title>
       <link>http://localhost:1313/dentist/implants/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -77,6 +91,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dentist/contact/</guid>
       <description>{{ partial &amp;ldquo;contact_dentist.html&amp;rdquo; . }}</description>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>http://localhost:1313/medicine/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/medicine/contact/</guid>
+      <description>{{ partial &amp;ldquo;contact_medicine.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Leczenie Zachowawcze: Ochrona i Estetyka Twoich Zębów</title>
@@ -104,7 +125,7 @@
       <link>http://localhost:1313/medicine/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/medicine/faq/</guid>
-      <description>Witamy w naszym gabinecie stomatologicznym! Zależy nam na zapewnieniu pacjentom kompleksowej i profesjonalnej opieki stomatologicznej. Poniżej znajdziesz kilka najczęściej zadawanych pytań, które mogą pomóc Ci lepiej zrozumieć naszą ofertę i procedury. Jeśli masz dodatkowe pytania lub potrzebujesz dalszych informacji, nie wahaj się skontaktować z naszym zespołem. Dziękujemy za zaufanie i wybór naszego gabinetu stomatologicznego.&#xA;1. Jakie są godziny otwarcia gabinetu stomatologicznego? Nasz gabinet stomatologiczny jest otwarty od poniedziałku do piątku w godzinach od 10:00 do 20:00.</description>
+      <description>Witamy w &amp;ldquo;Medycyna dla Ciebie&amp;rdquo;! Jesteśmy zespołem specjalistów z różnych dziedzin medycyny i estetyki. Tutaj znajdziesz odpowiedzi na pytania, które pomogą Ci lepiej zrozumieć zakres i specyfikę naszych usług. Jeżeli potrzebujesz dodatkowych informacji, skontaktuj się z nami bezpośrednio.&#xA;1. Jak mogę umówić się na wizytę? Wizytę możesz umówić telefonicznie pod numerem +48 519 455 989, przez naszą stronę internetową lub osobiście w naszym gabinecie.&#xA;2. Czy oferujecie pakiety usług dla stałych klientów?</description>
     </item>
     <item>
       <title>Nowoczesna Opieka Medyczna w Stargardzie</title>
