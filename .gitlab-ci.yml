@@ -6,6 +6,10 @@ variables:
 pages:
   script:
     - hugo --Universal
+  build:
+    stage: build
+    script:
+      - hugo
   artifacts:
     paths:
       - public/
