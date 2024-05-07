@@ -148,6 +148,9 @@
 - id: seeOpinionsSubtitleDentist
   translation: "Your Opinions Are Our Best References in the World of Dental Care. Check Out What Our Customers Say!"
 
+- id: seeOpinionsSubtitleMedicine
+  translation: "Your Opinions Are Our Best References in the World of Medical Care. Check Out What Our Customers Say!"
+
 - id: workingHours
   translation: "Working hours"
 
