@@ -1,18 +1,32 @@
 image: registry.gitlab.com/pages/hugo:latest
 
+stages:
+  - build
+  - deploy
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-pages:
+before_script:
+  - apt-get update && apt-get install -y
+  - hugo version
+
+build:
+  stage: build
   script:
-    - hugo --Universal
-  build:
-    stage: build
-    script:
-      - hugo
+    - hugo --gc --minify
   artifacts:
     paths:
-      - public/
+      - public
   only:
-    - main
+    - main  # lub master, zależnie od nazwy twojej głównej gałęzi
 
+deploy:
+  stage: deploy
+  script:
+    - echo "Tutaj skrypt do wdrażania na serwer produkcyjny, np. przez rsync, FTP lub inny mechanizm"
+  only:
+    - main  # lub master
+  environment:
+    name: production
+    url: http://dlaciebie.stargard.pl
