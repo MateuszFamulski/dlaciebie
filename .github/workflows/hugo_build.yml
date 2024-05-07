@@ -1,0 +1,50 @@
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main  # Zmieniaj zależnie od nazwy Twojej głównej gałęzi
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: public
+        path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'  # Tylko dla zmian na gałęzi głównej
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: public
+        path: public
+
+    - name: Deploy to Server
+      run: |
+        rsync -avz --delete public/ user@your-server.com:/path/to/website
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+
