@@ -1,4 +1,4 @@
-baseURL = 'https://mateuszfamulski.github.io/dlaciebie/'
+baseURL = 'dlaciebie.stargard.pl'
 languageCode = 'en-us'
 title = 'Stomatologia i Medycyna dla Ciebie'
 theme = 'my-themes'

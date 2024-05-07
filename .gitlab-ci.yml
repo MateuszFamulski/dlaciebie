@@ -1,13 +1,13 @@
 image: registry.gitlab.com/pages/hugo:latest  # Używa obrazu Docker dla Hugo
 
 variables:
-  GIT_SUBMODULE_STRATEGY: recursive  # Jeśli używasz submodułów, np. dla motywów
+  GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
   script:
-    - hugo  # Komenda budująca stronę
+    - hugo --my-themes
   artifacts:
     paths:
-      - public  # Hugo domyślnie buduje stronę do folderu `public`
+      - public
   only:
-    - main  # Określa, że skrypt będzie uruchamiany tylko na gałęzi main
+    - main
