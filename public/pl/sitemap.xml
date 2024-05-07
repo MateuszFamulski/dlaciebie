@@ -2,366 +2,366 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>dlaciebie.stargard.pl/authors/</loc>
+    <loc>//localhost:1313/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/authors/"
+                href="//localhost:1313/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/authors/"
+                href="//localhost:1313/authors/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/categories/"
+                href="//localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/categories/"
+                href="//localhost:1313/categories/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/dentalsurgery/</loc>
+    <loc>//localhost:1313/dentist/dental_surgery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/dentalsurgery/"
+                href="//localhost:1313/en/dentist/dental_surgery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/dentalsurgery/"
+                href="//localhost:1313/dentist/dental_surgery/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/</loc>
+    <loc>//localhost:1313/dentist/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/"
+                href="//localhost:1313/en/dentist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/"
+                href="//localhost:1313/dentist/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/laserdepilation/</loc>
+    <loc>//localhost:1313/medicine/laser_depilation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/laserdepilation/"
+                href="//localhost:1313/en/medicine/laser_depilation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/laserdepilation/"
+                href="//localhost:1313/medicine/laser_depilation/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/dietetics/</loc>
+    <loc>//localhost:1313/medicine/dietetics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/dietetics/"
+                href="//localhost:1313/en/medicine/dietetics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/dietetics/"
+                href="//localhost:1313/medicine/dietetics/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/endodontics/</loc>
+    <loc>//localhost:1313/dentist/endodontics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/endodontics/"
+                href="//localhost:1313/en/dentist/endodontics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/endodontics/"
+                href="//localhost:1313/dentist/endodontics/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/radiowave/</loc>
+    <loc>//localhost:1313/medicine/radio_wave/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/radiowave/"
+                href="//localhost:1313/en/medicine/radio_wave/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/radiowave/"
+                href="//localhost:1313/medicine/radio_wave/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/physiotherapy/</loc>
+    <loc>//localhost:1313/medicine/physiotherapy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/physiotherapy/"
+                href="//localhost:1313/en/medicine/physiotherapy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/physiotherapy/"
+                href="//localhost:1313/medicine/physiotherapy/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/photorejuvenation/</loc>
+    <loc>//localhost:1313/medicine/photorejuvenation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/photorejuvenation/"
+                href="//localhost:1313/en/medicine/photorejuvenation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/photorejuvenation/"
+                href="//localhost:1313/medicine/photorejuvenation/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/gallery/</loc>
+    <loc>//localhost:1313/dentist/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/gallery/"
+                href="//localhost:1313/en/dentist/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/gallery/"
+                href="//localhost:1313/dentist/gallery/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/gallery/</loc>
+    <loc>//localhost:1313/medicine/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/gallery/"
+                href="//localhost:1313/en/medicine/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/gallery/"
+                href="//localhost:1313/medicine/gallery/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/implants/</loc>
+    <loc>//localhost:1313/dentist/implants/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/implants/"
+                href="//localhost:1313/en/dentist/implants/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/implants/"
+                href="//localhost:1313/dentist/implants/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/consultationandresearch/</loc>
+    <loc>//localhost:1313/dentist/consultation_and_research/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/consultationandresearch/"
+                href="//localhost:1313/en/dentist/consultation_and_research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/consultationandresearch/"
+                href="//localhost:1313/dentist/consultation_and_research/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/contact/</loc>
+    <loc>//localhost:1313/dentist/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/contact/"
+                href="//localhost:1313/en/dentist/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/contact/"
+                href="//localhost:1313/dentist/contact/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/contact/</loc>
+    <loc>//localhost:1313/medicine/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/contact/"
+                href="//localhost:1313/en/medicine/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/contact/"
+                href="//localhost:1313/medicine/contact/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/lasercarbonpeeling/</loc>
+    <loc>//localhost:1313/medicine/laser_carbon_peeling/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/lasercarbonpeeling/"
+                href="//localhost:1313/en/medicine/laser_carbon_peeling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/lasercarbonpeeling/"
+                href="//localhost:1313/medicine/laser_carbon_peeling/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/dentaltreatment/</loc>
+    <loc>//localhost:1313/medicine/dental_treatment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/dentaltreatment/"
+                href="//localhost:1313/en/medicine/dental_treatment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/dentaltreatment/"
+                href="//localhost:1313/medicine/dental_treatment/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/conservaticetreatment/</loc>
+    <loc>//localhost:1313/dentist/conservatice_treatment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/conservaticetreatment/"
+                href="//localhost:1313/en/dentist/conservatice_treatment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/conservaticetreatment/"
+                href="//localhost:1313/dentist/conservatice_treatment/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/</loc>
+    <loc>//localhost:1313/medicine/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/"
+                href="//localhost:1313/en/medicine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/"
+                href="//localhost:1313/medicine/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/faq/</loc>
+    <loc>//localhost:1313/dentist/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/faq/"
+                href="//localhost:1313/en/dentist/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/faq/"
+                href="//localhost:1313/dentist/faq/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/faq/</loc>
+    <loc>//localhost:1313/medicine/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/faq/"
+                href="//localhost:1313/en/medicine/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/faq/"
+                href="//localhost:1313/medicine/faq/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/about_as/</loc>
+    <loc>//localhost:1313/medicine/about_as/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/about_as/"
+                href="//localhost:1313/en/medicine/about_as/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/about_as/"
+                href="//localhost:1313/medicine/about_as/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/about_as/</loc>
+    <loc>//localhost:1313/dentist/about_as/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/about_as/"
+                href="//localhost:1313/en/dentist/about_as/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/about_as/"
+                href="//localhost:1313/dentist/about_as/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/medicine/orthopedist/</loc>
+    <loc>//localhost:1313/medicine/orthopedist/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/medicine/orthopedist/"
+                href="//localhost:1313/en/medicine/orthopedist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/medicine/orthopedist/"
+                href="//localhost:1313/medicine/orthopedist/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/prophylaxis/</loc>
+    <loc>//localhost:1313/dentist/prophylaxis/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/prophylaxis/"
+                href="//localhost:1313/en/dentist/prophylaxis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/prophylaxis/"
+                href="//localhost:1313/dentist/prophylaxis/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/walk/</loc>
+    <loc>//localhost:1313/dentist/walk/</loc>
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/pediatricdentistry/</loc>
+    <loc>//localhost:1313/dentist/pediatric_dentistry/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/pediatricdentistry/"
+                href="//localhost:1313/en/dentist/pediatric_dentistry/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/pediatricdentistry/"
+                href="//localhost:1313/dentist/pediatric_dentistry/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/</loc>
+    <loc>//localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/"
+                href="//localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/"
+                href="//localhost:1313/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/tags/"
+                href="//localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/tags/"
+                href="//localhost:1313/tags/"
                 />
   </url><url>
-    <loc>dlaciebie.stargard.pl/dentist/teethwhitening/</loc>
+    <loc>//localhost:1313/dentist/teeth_whitening/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dlaciebie.stargard.pl/en/dentist/teethwhitening/"
+                href="//localhost:1313/en/dentist/teeth_whitening/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="dlaciebie.stargard.pl/dentist/teethwhitening/"
+                href="//localhost:1313/dentist/teeth_whitening/"
                 />
   </url>
 </urlset>
