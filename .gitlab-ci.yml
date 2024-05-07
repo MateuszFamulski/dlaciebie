@@ -1,14 +1,13 @@
-image: registry.gitlab.com/pages/hugo:latest  # Używa obrazu Docker dla Hugo
+image: registry.gitlab.com/pages/hugo:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
   script:
-    - hugo --my-themes
+    - hugo --minify
   artifacts:
     paths:
       - public/
-      - resources/
   only:
     - main
