@@ -1,11 +1,11 @@
-image: registry.gitlab.com/MateuszFamulski/dlaciebie/pages/hugo:latest
+image: registry.gitlab.com/pages/hugo:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
   script:
-    - hugo --minify
+    - hugo --Universal
   artifacts:
     paths:
       - public/
