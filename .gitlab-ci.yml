@@ -23,4 +23,4 @@ deploy:
     paths:
       - public_html
   only:
-    - master  # Deploy only when changes are pushed to master branch
+    - main  # Deploy only when changes are pushed to master branch
