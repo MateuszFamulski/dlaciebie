@@ -2,177 +2,177 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stomatologia i Medycyna dla Ciebie</title>
-    <link>//localhost:1313/en/</link>
+    <link>dlaciebie.stargard.pl/en/</link>
     <description>Recent content on Stomatologia i Medycyna dla Ciebie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="dlaciebie.stargard.pl/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conservative Treatment: Protection and Aesthetics of Your Teeth</title>
-      <link>//localhost:1313/en/dentist/conservatice_treatment/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/conservatice_treatment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/conservatice_treatment/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/conservatice_treatment/</guid>
       <description>Preservative treatment plays a fundamental role in dentistry, aiming to protect teeth from further damage and restore their natural function and aesthetics. At our dental office, we focus on offering advanced treatment options that not only ensure the health of teeth, but also meet the aesthetic expectations of our patients.&#xA;Modern Light-Cured Materials One of the key elements of our approach to restorative treatment is the use of modern light-curing materials for fillings.</description>
     </item>
     <item>
       <title>Consultation and Research: The Foundation of Your Smile</title>
-      <link>//localhost:1313/en/dentist/consultation_and_research/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/consultation_and_research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/consultation_and_research/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/consultation_and_research/</guid>
       <description>On the road to a healthy and beautiful smile, the first and most important step is an accurate diagnosis. At our dental office, understanding and assessing a patient&amp;rsquo;s oral health is on the pedestal of our priorities. With advanced diagnostic equipment and the in-depth knowledge and experience of our specialists, we are able to perform detailed dental examinations that lay the foundation for an effective treatment plan.&#xA;Why Are Examinations So Important?</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>//localhost:1313/en/dentist/contact/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/contact/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/contact/</guid>
       <description>{{ partial &amp;ldquo;contact_dentist.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>//localhost:1313/en/medicine/contact/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/contact/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/contact/</guid>
       <description>{{ partial &amp;ldquo;contact_medicine.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Dental Surgery: Advanced Solutions for Your Health</title>
-      <link>//localhost:1313/en/dentist/dental_surgery/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/dental_surgery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/dental_surgery/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/dental_surgery/</guid>
       <description>In our dental office, dental surgery is performed using the latest technology and at the highest level of advanced medical knowledge. Our goal is to provide patients with access to a wide range of surgical procedures, which are performed with attention to every detail to ensure the best possible healing results while minimizing discomfort.&#xA;Wide Range of Surgical Procedures Dental surgery includes a variety of procedures to address specific oral health problems.</description>
     </item>
     <item>
       <title>Dental Treatment for Adults and Children: We Care for Your Smile</title>
-      <link>//localhost:1313/en/medicine/dental_treatment/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/dental_treatment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/dental_treatment/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/dental_treatment/</guid>
       <description>Comprehensive Care at Any Age In our dental office, we offer comprehensive dental care for patients of all ages. Our experienced team of specialists provides quality services including conservative treatment, preventive care and cosmetic procedures to keep your smile healthy and beautiful at all times.&#xA;Services Available at Our Dental Office: Conservative Treatment: Our team of specialists performs a variety of conservative treatment procedures, such as fillings, root canal therapy and tooth restoration, to restore the health and functionality of your teeth.</description>
     </item>
     <item>
       <title>Dietetics: It All Starts with the Stomach.</title>
-      <link>//localhost:1313/en/medicine/dietetics/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/dietetics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/dietetics/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/dietetics/</guid>
       <description>At Medicine for You, nutritionists play a key role in providing comprehensive health care. An experienced dietitian, who is an integral part of our team, places special emphasis on an individualized approach to each patient.&#xA;Consultation at the Highest Level During dietary consultations, he conducts a thorough assessment of the patient&amp;rsquo;s health status, taking into account the patient&amp;rsquo;s medical history, lifestyle and health goals. Using state-of-the-art diagnostic tools and methods, she works with the patient to identify areas that need attention in terms of nutrition.</description>
     </item>
     <item>
       <title>Endodontics: Rescue for Endangered Teeth</title>
-      <link>//localhost:1313/en/dentist/endodontics/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/endodontics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/endodontics/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/endodontics/</guid>
       <description>Today, endodontics, commonly known as root canal treatment, is a key component of modern conservative dentistry. At our dental office, we pay great attention to this specialty, using the latest available technology and an endodontic microscope. With these tools, we are able to remove infected tissue from inside the tooth with great precision, thus preserving the tooth and protecting it from the need for extraction.&#xA;How Does Root Canal Treatment Work?</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>//localhost:1313/en/dentist/faq/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/faq/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/faq/</guid>
       <description>Welcome to our dental office! We are committed to providing comprehensive and professional dental care to our patients. Below, you will find some frequently asked questions that may help you better understand our offerings and procedures. If you have additional questions or need further information, feel free to contact our team. Thank you for trusting and choosing our dental office.&#xA;1. What are the opening hours of the dental office?</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>//localhost:1313/en/medicine/faq/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/faq/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/faq/</guid>
       <description>Welcome to &amp;ldquo;Medicine for You&amp;rdquo;! We are a team of specialists in various fields of medicine and aesthetics. Here you will find answers to questions that will help you better understand the scope and specifics of our services. If you need additional information, please contact us directly.&#xA;1. How can I make an appointment? You can make an appointment by phone at +48 519 455 989, through our website or in person at our office.</description>
     </item>
     <item>
       <title>Implants: A Modern Solution for Missing Teeth</title>
-      <link>//localhost:1313/en/dentist/implants/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/implants/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/implants/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/implants/</guid>
       <description>In our dental office, we understand how important it is to have a full set of healthy teeth not only for your health, but also for your self-confidence. That&amp;rsquo;s why we offer comprehensive implant services for people who have lost one or more teeth and are looking for a permanent and aesthetically satisfying solution.&#xA;What Are Dental Implants? Tooth implants are small screws made of titanium or other biocompatible materials that are implanted into the jawbone in place of a lost tooth.</description>
     </item>
     <item>
       <title>Laser Carbon Peeling: Discover the Secret of Radiant Skin</title>
-      <link>//localhost:1313/en/medicine/laser_carbon_peeling/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/laser_carbon_peeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/laser_carbon_peeling/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/laser_carbon_peeling/</guid>
       <description>Dive into the experience of deep skin regeneration with our carbon laser peel service. This innovative treatment is the key to achieving radiant, rejuvenated skin without the need for lengthy recovery or invasive procedures.&#xA;How Does Laser Carbon Peeling Work? Our laser carbon peeling technology uses the unique properties of activated carbon, which is applied to the surface of the skin. Then, using a precise laser pulse, energy is absorbed by the carbon particles, resulting in controlled heating of the skin and removal of dead skin and impurities.</description>
     </item>
     <item>
       <title>Laser Depilation: Smooth Skin Forever</title>
-      <link>//localhost:1313/en/medicine/laser_depilation/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/laser_depilation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/laser_depilation/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/laser_depilation/</guid>
       <description>Forget about regular shaving, waxing or painful hair removal methods. Our laser hair removal service is a fast, effective and permanent way to get rid of unwanted hair once and for all.&#xA;Effectiveness of Laser Technology Our advanced laser hair removal equipment uses precise pulses of light that reach the hair roots, destroying them without damaging the surrounding skin. This ensures long-lasting results without painful irritation or ingrown hairs.</description>
     </item>
     <item>
       <title>Modern Dental Care in Stargard</title>
-      <link>//localhost:1313/en/dentist/about_as/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/about_as/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/about_as/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/about_as/</guid>
       <description>Welcome to Dentistry for you, a modern dental facility located at 59/2 Niepodległości Street in picturesque Stargard. Our office is a place where passion for dentistry is combined with the latest medical advancements to provide our patients with the highest level of care. We are a team of experienced specialists dedicated to the health and smile of every patient. Our work is not only a profession, but above all a mission to provide comfort and safety to those who trust us.</description>
     </item>
     <item>
       <title>Modern Medical Care in Stargard</title>
-      <link>//localhost:1313/en/medicine/about_as/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/about_as/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/about_as/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/about_as/</guid>
       <description>Welcome to Medicine for You - a place where caring for your health is our top priority. We are a modern medical facility located at 59/2 Niepodległości Street in picturesque Stargard. Our team of doctors and medical staff have combined their passion for their work with the latest medical advances to provide our patients with the highest level of care.&#xA;Our Mission Our mission is to provide comprehensive medical care for every patient.</description>
     </item>
     <item>
       <title>Orthopedist: Experience in Orthopedics</title>
-      <link>//localhost:1313/en/medicine/orthopedist/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/orthopedist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/orthopedist/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/orthopedist/</guid>
       <description>In our office, orthopedics is an indispensable part of comprehensive health care. Our experienced orthopedist specializes in the diagnosis, treatment and rehabilitation of diseases and injuries of the musculoskeletal system.&#xA;Let&amp;rsquo;s talk! We begin each consultation with a thorough medical history and physical examination to understand the patient&amp;rsquo;s complaints and determine the source of the problem. Our patients can expect a comprehensive orthopedic evaluation and a personalized approach to their case.</description>
     </item>
     <item>
       <title>Pediatric Dentistry: Caring for the Youngest Patients</title>
-      <link>//localhost:1313/en/dentist/pediatric_dentistry/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/pediatric_dentistry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/pediatric_dentistry/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/pediatric_dentistry/</guid>
       <description>Understanding the needs and expectations of our youngest patients is a key part of our practice&amp;rsquo;s dental offerings. We know how important it is to make the first visits to the dentist a positive one, which can definitely influence the child&amp;rsquo;s future approach to oral health care. That&amp;rsquo;s why our pediatric dentistry offerings are designed to provide children with a comfortable and stress-free experience.&#xA;Adaptive Visits The first step in establishing a positive relationship with a young patient is adaptive visits.</description>
     </item>
     <item>
       <title>Photo gallery</title>
-      <link>//localhost:1313/en/dentist/gallery/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/gallery/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/gallery/</guid>
       <description>{{ partial &amp;ldquo;gallery_dentist.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Photo gallery</title>
-      <link>//localhost:1313/en/medicine/gallery/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/gallery/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/gallery/</guid>
       <description>{{ partial &amp;ldquo;gallery_medicine.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Photorejuvenation: Reclaim the Youthfulness of Your Skin</title>
-      <link>//localhost:1313/en/medicine/photorejuvenation/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/photorejuvenation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/photorejuvenation/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/photorejuvenation/</guid>
       <description>Photorejuvenation is an innovative method that allows skin rejuvenation without undergoing painful and invasive surgical procedures. By using light of the right wavelength, our devices stimulate the skin&amp;rsquo;s natural regenerative processes, providing a rejuvenating effect and improving skin condition.&#xA;Benefits of Photorejuvenation: Reduction of wrinkles and fine lines.&#xA;Improvement of skin elasticity and firmness.&#xA;Reduction of hyperpigmentation and pigmentation spots.&#xA;Cleansing the skin of impurities and excess sebum.&#xA;Stimulating the production of collagen and elastin, which are key to the youthful appearance of the skin.</description>
     </item>
     <item>
       <title>Physiotherapy - First Diagnosis</title>
-      <link>//localhost:1313/en/medicine/physiotherapy/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/physiotherapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/physiotherapy/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/physiotherapy/</guid>
       <description>In our medical office, physiotherapy is an integral part of comprehensive health care. We begin each consultation with a precise diagnosis, using state-of-the-art diagnostic equipment and innovative technologies.&#xA;Everyone Is Different Our approach to the patient is individual and holistic. We not only identify the problem, but also take the time to understand their needs and expectations. We create a personalized treatment plan that takes into account both the therapeutic goals and expectations of the patient.</description>
     </item>
     <item>
       <title>Prevention: the Basis of a Healthy Smile</title>
-      <link>//localhost:1313/en/dentist/prophylaxis/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/prophylaxis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/prophylaxis/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/prophylaxis/</guid>
       <description>In our dental office, we firmly believe that prevention is the key to long-term health and a beautiful smile. A healthy mouth not only contributes to overall health, but also affects the mood and self-confidence of our patients. That&amp;rsquo;s why we place great emphasis on a wide range of preventive treatments that aim to prevent dental and gum problems before they even occur.&#xA;Regular Check-up Visits The cornerstone of effective preventive care is regular check-up visits.</description>
     </item>
     <item>
       <title>Radiofrequency Wave Using Laser: Revolutionary Technology for Your Skin</title>
-      <link>//localhost:1313/en/medicine/radio_wave/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/radio_wave/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/radio_wave/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/radio_wave/</guid>
       <description>Presenting an innovative service using a combination of radio wave and laser that is revolutionizing the approach to skin care. Our devices provide comprehensive, non-invasive and effective solutions to a wide range of skin problems, from aging to scars and acne.&#xA;How Does Radio Wave Technology with Laser Work? Our advanced devices use laser light energy combined with radio waves to precisely reach the layers of the skin where regeneration and renewal processes take place.</description>
     </item>
     <item>
       <title>Teeth Whitening: Your Path to a White Smile</title>
-      <link>//localhost:1313/en/dentist/teeth_whitening/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/teeth_whitening/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/teeth_whitening/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/teeth_whitening/</guid>
       <description>Tooth whitening is one of the most sought-after aesthetic procedures that can significantly improve the appearance of your smile. At our dental office, we offer a wide range of professional whitening methods that are safe for dental health and can adapt to each patient&amp;rsquo;s individual needs.&#xA;Office Whitening Office whitening is a fast and effective way to achieve a white smile. This procedure is performed directly in the dental office under the supervision of our specialists.</description>
     </item>
   </channel>
