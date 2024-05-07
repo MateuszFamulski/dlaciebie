@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dentist on Stomatologia i Medycyna dla Ciebie</title>
-    <link>//localhost:1313/en/dentist/</link>
+    <link>dlaciebie.stargard.pl/en/dentist/</link>
     <description>Recent content in Dentist on Stomatologia i Medycyna dla Ciebie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/en/dentist/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="dlaciebie.stargard.pl/en/dentist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conservative Treatment: Protection and Aesthetics of Your Teeth</title>
-      <link>//localhost:1313/en/dentist/conservatice_treatment/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/conservatice_treatment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/conservatice_treatment/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/conservatice_treatment/</guid>
       <description>Preservative treatment plays a fundamental role in dentistry, aiming to protect teeth from further damage and restore their natural function and aesthetics. At our dental office, we focus on offering advanced treatment options that not only ensure the health of teeth, but also meet the aesthetic expectations of our patients.&#xA;Modern Light-Cured Materials One of the key elements of our approach to restorative treatment is the use of modern light-curing materials for fillings.</description>
     </item>
     <item>
       <title>Consultation and Research: The Foundation of Your Smile</title>
-      <link>//localhost:1313/en/dentist/consultation_and_research/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/consultation_and_research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/consultation_and_research/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/consultation_and_research/</guid>
       <description>On the road to a healthy and beautiful smile, the first and most important step is an accurate diagnosis. At our dental office, understanding and assessing a patient&amp;rsquo;s oral health is on the pedestal of our priorities. With advanced diagnostic equipment and the in-depth knowledge and experience of our specialists, we are able to perform detailed dental examinations that lay the foundation for an effective treatment plan.&#xA;Why Are Examinations So Important?</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>//localhost:1313/en/dentist/contact/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/contact/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/contact/</guid>
       <description>{{ partial &amp;ldquo;contact_dentist.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Dental Surgery: Advanced Solutions for Your Health</title>
-      <link>//localhost:1313/en/dentist/dental_surgery/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/dental_surgery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/dental_surgery/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/dental_surgery/</guid>
       <description>In our dental office, dental surgery is performed using the latest technology and at the highest level of advanced medical knowledge. Our goal is to provide patients with access to a wide range of surgical procedures, which are performed with attention to every detail to ensure the best possible healing results while minimizing discomfort.&#xA;Wide Range of Surgical Procedures Dental surgery includes a variety of procedures to address specific oral health problems.</description>
     </item>
     <item>
       <title>Endodontics: Rescue for Endangered Teeth</title>
-      <link>//localhost:1313/en/dentist/endodontics/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/endodontics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/endodontics/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/endodontics/</guid>
       <description>Today, endodontics, commonly known as root canal treatment, is a key component of modern conservative dentistry. At our dental office, we pay great attention to this specialty, using the latest available technology and an endodontic microscope. With these tools, we are able to remove infected tissue from inside the tooth with great precision, thus preserving the tooth and protecting it from the need for extraction.&#xA;How Does Root Canal Treatment Work?</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>//localhost:1313/en/dentist/faq/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/faq/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/faq/</guid>
       <description>Welcome to our dental office! We are committed to providing comprehensive and professional dental care to our patients. Below, you will find some frequently asked questions that may help you better understand our offerings and procedures. If you have additional questions or need further information, feel free to contact our team. Thank you for trusting and choosing our dental office.&#xA;1. What are the opening hours of the dental office?</description>
     </item>
     <item>
       <title>Implants: A Modern Solution for Missing Teeth</title>
-      <link>//localhost:1313/en/dentist/implants/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/implants/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/implants/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/implants/</guid>
       <description>In our dental office, we understand how important it is to have a full set of healthy teeth not only for your health, but also for your self-confidence. That&amp;rsquo;s why we offer comprehensive implant services for people who have lost one or more teeth and are looking for a permanent and aesthetically satisfying solution.&#xA;What Are Dental Implants? Tooth implants are small screws made of titanium or other biocompatible materials that are implanted into the jawbone in place of a lost tooth.</description>
     </item>
     <item>
       <title>Modern Dental Care in Stargard</title>
-      <link>//localhost:1313/en/dentist/about_as/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/about_as/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/about_as/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/about_as/</guid>
       <description>Welcome to Dentistry for you, a modern dental facility located at 59/2 Niepodległości Street in picturesque Stargard. Our office is a place where passion for dentistry is combined with the latest medical advancements to provide our patients with the highest level of care. We are a team of experienced specialists dedicated to the health and smile of every patient. Our work is not only a profession, but above all a mission to provide comfort and safety to those who trust us.</description>
     </item>
     <item>
       <title>Pediatric Dentistry: Caring for the Youngest Patients</title>
-      <link>//localhost:1313/en/dentist/pediatric_dentistry/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/pediatric_dentistry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/pediatric_dentistry/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/pediatric_dentistry/</guid>
       <description>Understanding the needs and expectations of our youngest patients is a key part of our practice&amp;rsquo;s dental offerings. We know how important it is to make the first visits to the dentist a positive one, which can definitely influence the child&amp;rsquo;s future approach to oral health care. That&amp;rsquo;s why our pediatric dentistry offerings are designed to provide children with a comfortable and stress-free experience.&#xA;Adaptive Visits The first step in establishing a positive relationship with a young patient is adaptive visits.</description>
     </item>
     <item>
       <title>Photo gallery</title>
-      <link>//localhost:1313/en/dentist/gallery/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/gallery/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/gallery/</guid>
       <description>{{ partial &amp;ldquo;gallery_dentist.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Prevention: the Basis of a Healthy Smile</title>
-      <link>//localhost:1313/en/dentist/prophylaxis/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/prophylaxis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/prophylaxis/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/prophylaxis/</guid>
       <description>In our dental office, we firmly believe that prevention is the key to long-term health and a beautiful smile. A healthy mouth not only contributes to overall health, but also affects the mood and self-confidence of our patients. That&amp;rsquo;s why we place great emphasis on a wide range of preventive treatments that aim to prevent dental and gum problems before they even occur.&#xA;Regular Check-up Visits The cornerstone of effective preventive care is regular check-up visits.</description>
     </item>
     <item>
       <title>Teeth Whitening: Your Path to a White Smile</title>
-      <link>//localhost:1313/en/dentist/teeth_whitening/</link>
+      <link>dlaciebie.stargard.pl/en/dentist/teeth_whitening/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/dentist/teeth_whitening/</guid>
+      <guid>dlaciebie.stargard.pl/en/dentist/teeth_whitening/</guid>
       <description>Tooth whitening is one of the most sought-after aesthetic procedures that can significantly improve the appearance of your smile. At our dental office, we offer a wide range of professional whitening methods that are safe for dental health and can adapt to each patient&amp;rsquo;s individual needs.&#xA;Office Whitening Office whitening is a fast and effective way to achieve a white smile. This procedure is performed directly in the dental office under the supervision of our specialists.</description>
     </item>
   </channel>
