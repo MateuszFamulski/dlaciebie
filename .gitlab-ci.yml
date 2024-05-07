@@ -1,26 +1,18 @@
-# Specify the Docker image to use
 image: registry.gitlab.com/pages/hugo:latest
 
-# Define stages for CI/CD pipeline
-stages:
-  - build
-  - deploy
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
-# Job to build the website
-build:
-  stage: build
+pages:
   script:
-    - hugo
-
-# Job to deploy the website
-deploy:
-  stage: deploy
-  script:
-    - mkdir public
-    - cp -r * public/
-    - mv public public_html # Assuming your web server root directory is public_html
+    - hugo --Universal
+  build:
+    stage: build
+    script:
+      - hugo
   artifacts:
     paths:
-      - public_html
+      - public/
   only:
-    - main  # Deploy only when changes are pushed to master branch
+    - main
+
