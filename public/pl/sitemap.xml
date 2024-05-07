@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,11 +14,7 @@
                 href="http://localhost:1313/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,80 +25,6 @@
                 hreflang="pl"
                 href="http://localhost:1313/categories/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/blog/2021/08/01/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/john-doe/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/pseudo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/theme/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dentist/dentalsurgery/</loc>
     <xhtml:link
@@ -129,6 +50,30 @@
                 href="http://localhost:1313/dentist/"
                 />
   </url><url>
+    <loc>http://localhost:1313/medicine/laserdepilation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/laserdepilation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/laserdepilation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/dietetics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/dietetics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/dietetics/"
+                />
+  </url><url>
     <loc>http://localhost:1313/dentist/endodontics/</loc>
     <xhtml:link
                 rel="alternate"
@@ -139,6 +84,42 @@
                 rel="alternate"
                 hreflang="pl"
                 href="http://localhost:1313/dentist/endodontics/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/radiowave/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/radiowave/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/radiowave/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/physiotherapy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/physiotherapy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/physiotherapy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/photorejuvenation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/photorejuvenation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/photorejuvenation/"
                 />
   </url><url>
     <loc>http://localhost:1313/dentist/gallery/</loc>
@@ -177,8 +158,6 @@
                 href="http://localhost:1313/dentist/implants/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/ipsum/</loc>
-  </url><url>
     <loc>http://localhost:1313/dentist/consultationandresearch/</loc>
     <xhtml:link
                 rel="alternate"
@@ -215,6 +194,30 @@
                 href="http://localhost:1313/medicine/contact/"
                 />
   </url><url>
+    <loc>http://localhost:1313/medicine/lasercarbonpeeling/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/lasercarbonpeeling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/lasercarbonpeeling/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/medicine/dentaltreatment/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/dentaltreatment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/dentaltreatment/"
+                />
+  </url><url>
     <loc>http://localhost:1313/dentist/conservaticetreatment/</loc>
     <xhtml:link
                 rel="alternate"
@@ -238,8 +241,6 @@
                 hreflang="pl"
                 href="http://localhost:1313/medicine/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</loc>
   </url><url>
     <loc>http://localhost:1313/dentist/faq/</loc>
     <xhtml:link
@@ -289,6 +290,18 @@
                 href="http://localhost:1313/dentist/about_as/"
                 />
   </url><url>
+    <loc>http://localhost:1313/medicine/orthopedist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/orthopedist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/orthopedist/"
+                />
+  </url><url>
     <loc>http://localhost:1313/dentist/prophylaxis/</loc>
     <xhtml:link
                 rel="alternate"
@@ -313,6 +326,30 @@
                 rel="alternate"
                 hreflang="pl"
                 href="http://localhost:1313/dentist/pediatricdentistry/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/dentist/teethwhitening/</loc>

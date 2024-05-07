@@ -9,7 +9,7 @@
                 {{ range sort .Site.Data.medicine_carousel "weight" }}
                 <div class="item">
                     {{ if .href }}
-                    <a href="{{ .href }}">
+                    <a href="{{ .href | relLangURL }}">
                     {{ end }}
                         <div class="row">
                             {{ if eq .weight 1 }}
@@ -24,7 +24,7 @@
                                 </div>                                
                             </div>
                             <div class="col-sm-7">
-                                <img class="img-responsive" src="/img/carousel/fizjoterapia.png" alt="">
+                                <img class="img-responsive" src="/img/carousel/owoce2.png" alt="">
                             </div>
                                 {{end}}
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
@@ -5,6 +6,20 @@
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
   </head>
+
+  <script>
+    let hasAccess = false;
+    while (!hasAccess) {
+      const password = prompt("Podaj hasło, aby uzyskać dostęp do strony:");
+      if (password == "dupablada") {  // Ustaw swoje tymczasowe hasło
+        hasAccess = true;
+      } else {
+        alert("Błędne hasło!");
+      }
+    }
+  </script>
+  
+  
 
   <head>
     <style>

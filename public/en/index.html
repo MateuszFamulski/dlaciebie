@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +37,7 @@
 
 
 
-<link href="/css/custom.css?1715035015" rel="stylesheet">
+<link href="/css/custom.css?1715085553" rel="stylesheet">
 
 
 
@@ -94,6 +95,20 @@
 
     
   </head>
+
+  <script>
+    let hasAccess = false;
+    while (!hasAccess) {
+      const password = prompt("Podaj hasło, aby uzyskać dostęp do strony:");
+      if (password == "dupablada") {  
+        hasAccess = true;
+      } else {
+        alert("Błędne hasło!");
+      }
+    }
+  </script>
+  
+  
 
   <head>
     <style>

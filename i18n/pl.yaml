@@ -291,3 +291,27 @@
 
 - id: "GALLERY"
   translation: "Galeria"
+
+- id: "LASER_DEPILATION"
+  translation: "Depilacja laserowa"
+
+- id: "RADIO_WAVE"
+  translation: "Fale radiowe"
+
+- id: "LASER_CARBON_PEELING"
+  translation: "Peeling węglowy laserem"
+
+- id: "PHOTOREJUVENATION"
+  translation: "Fotoodmładzanie"
+
+- id: "DENTAL_TREATMENT"
+  translation: "Leczenie stomatologiczne"
+
+- id: "PHYSIOTHERAPY"
+  translation: "Fizjoterapia"
+
+- id: "DIETETICS"
+  translation: "Dietetyka"
+
+- id: "ORTHOPEDIST"
+  translation: "Ortopeda"

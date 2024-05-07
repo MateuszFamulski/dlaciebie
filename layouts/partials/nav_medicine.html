@@ -77,6 +77,20 @@
                 {{ end }}
 
                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ i18n "SERVICES"}} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ "/medicine/laserDepilation" | relLangURL}}">{{ i18n "LASER_DEPILATION" }}</a></li>
+                  <li><a href="{{ "/medicine/radioWave" | relLangURL}}">{{ i18n "RADIO_WAVE" }}</a></li>
+                  <li><a href="{{ "/medicine/laserCarbonPeeling" | relLangURL}}">{{ i18n "LASER_CARBON_PEELING" }}</a></li>
+                  <li><a href="{{ "/medicine/photorejuvenation" | relLangURL}}">{{ i18n "PHOTOREJUVENATION" }}</a></li>
+                  <li><a href="{{ "/medicine/dentalTreatment" | relLangURL}}">{{ i18n "DENTAL_TREATMENT" }}</a></li>
+                  <li><a href="{{ "/medicine/physiotherapy" | relLangURL}}">{{ i18n "PHYSIOTHERAPY" }}</a></li>
+                  <li><a href="{{ "/medicine/dietetics" | relLangURL}}">{{ i18n "DIETETICS" }}</a></li>
+                  <li><a href="{{ "/medicine/orthopedist" | relLangURL}}">{{ i18n "ORTHOPEDIST" }}</a></li>
+                </ul>
+                </li>
+
+                <li class="dropdown">
                   <a href="{{"/medicine/about_as" | relLangURL }}">{{ i18n "ABOUT_AS" }}</a>
                 </li>
 

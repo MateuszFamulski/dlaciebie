@@ -288,3 +288,27 @@
 
 - id: "GALLERY"
   translation: "Gallery"
+
+- id: "LASER_DEPILATION"
+  translation: "Laser depilation"
+
+- id: "RADIO_WAVE"
+  translation: "Radio wave"
+
+- id: "LASER_CARBON_PEELING"
+  translation: "Laser carbon peeling"
+
+- id: "PHOTOREJUVENATION"
+  translation: "Photorejuvenation"
+
+- id: "DENTAL_TREATMENT"
+  translation: "Dental treatment"
+
+- id: "PHYSIOTHERAPY"
+  translation: "Physiotherapy"
+
+- id: "DIETETICS"
+  translation: "Dietetics"
+
+- id: "ORTHOPEDIST"
+  translation: "Orthopedist"

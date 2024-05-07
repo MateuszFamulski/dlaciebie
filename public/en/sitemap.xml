@@ -86,6 +86,18 @@
                 href="http://localhost:1313/en/dentist/dentalsurgery/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/medicine/dentaltreatment/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/dentaltreatment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/dentaltreatment/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/dentist/</loc>
     <xhtml:link
                 rel="alternate"
@@ -96,6 +108,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/dentist/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/medicine/dietetics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/dietetics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/dietetics/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/dentist/endodontics/</loc>
@@ -146,6 +170,30 @@
                 href="http://localhost:1313/en/dentist/implants/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/medicine/lasercarbonpeeling/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/lasercarbonpeeling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/lasercarbonpeeling/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/medicine/laserdepilation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/laserdepilation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/laserdepilation/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/medicine/</loc>
     <xhtml:link
                 rel="alternate"
@@ -180,6 +228,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/medicine/about_as/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/medicine/orthopedist/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/orthopedist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/orthopedist/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/dentist/pediatricdentistry/</loc>
@@ -218,6 +278,30 @@
                 href="http://localhost:1313/en/medicine/gallery/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/medicine/photorejuvenation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/photorejuvenation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/photorejuvenation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/medicine/physiotherapy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/physiotherapy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/physiotherapy/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/dentist/prophylaxis/</loc>
     <xhtml:link
                 rel="alternate"
@@ -228,6 +312,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/dentist/prophylaxis/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/medicine/radiowave/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/medicine/radiowave/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/medicine/radiowave/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/</loc>
