@@ -2,364 +2,364 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/authors/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/authors/"
+                href="http://localhost:1313/dlaciebie/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/authors/"
+                href="http://localhost:1313/dlaciebie/en/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/dlaciebie/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/dlaciebie/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/conservaticetreatment/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/conservaticetreatment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/conservaticetreatment/"
+                href="http://localhost:1313/dlaciebie/dentist/conservaticetreatment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/conservaticetreatment/"
+                href="http://localhost:1313/dlaciebie/en/dentist/conservaticetreatment/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/consultationandresearch/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/consultationandresearch/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/consultationandresearch/"
+                href="http://localhost:1313/dlaciebie/dentist/consultationandresearch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/consultationandresearch/"
+                href="http://localhost:1313/dlaciebie/en/dentist/consultationandresearch/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/contact/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/contact/"
+                href="http://localhost:1313/dlaciebie/dentist/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/contact/"
+                href="http://localhost:1313/dlaciebie/en/dentist/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/contact/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/contact/"
+                href="http://localhost:1313/dlaciebie/medicine/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/contact/"
+                href="http://localhost:1313/dlaciebie/en/medicine/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/dentalsurgery/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/dentalsurgery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/dentalsurgery/"
+                href="http://localhost:1313/dlaciebie/dentist/dentalsurgery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/dentalsurgery/"
+                href="http://localhost:1313/dlaciebie/en/dentist/dentalsurgery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/dentaltreatment/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/dentaltreatment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/dentaltreatment/"
+                href="http://localhost:1313/dlaciebie/medicine/dentaltreatment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/dentaltreatment/"
+                href="http://localhost:1313/dlaciebie/en/medicine/dentaltreatment/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/"
+                href="http://localhost:1313/dlaciebie/dentist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/"
+                href="http://localhost:1313/dlaciebie/en/dentist/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/dietetics/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/dietetics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/dietetics/"
+                href="http://localhost:1313/dlaciebie/medicine/dietetics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/dietetics/"
+                href="http://localhost:1313/dlaciebie/en/medicine/dietetics/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/endodontics/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/endodontics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/endodontics/"
+                href="http://localhost:1313/dlaciebie/dentist/endodontics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/endodontics/"
+                href="http://localhost:1313/dlaciebie/en/dentist/endodontics/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/faq/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/faq/"
+                href="http://localhost:1313/dlaciebie/dentist/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/faq/"
+                href="http://localhost:1313/dlaciebie/en/dentist/faq/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/faq/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/faq/"
+                href="http://localhost:1313/dlaciebie/medicine/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/faq/"
+                href="http://localhost:1313/dlaciebie/en/medicine/faq/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/implants/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/implants/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/implants/"
+                href="http://localhost:1313/dlaciebie/dentist/implants/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/implants/"
+                href="http://localhost:1313/dlaciebie/en/dentist/implants/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/lasercarbonpeeling/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/lasercarbonpeeling/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/lasercarbonpeeling/"
+                href="http://localhost:1313/dlaciebie/medicine/lasercarbonpeeling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/lasercarbonpeeling/"
+                href="http://localhost:1313/dlaciebie/en/medicine/lasercarbonpeeling/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/laserdepilation/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/laserdepilation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/laserdepilation/"
+                href="http://localhost:1313/dlaciebie/medicine/laserdepilation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/laserdepilation/"
+                href="http://localhost:1313/dlaciebie/en/medicine/laserdepilation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/"
+                href="http://localhost:1313/dlaciebie/medicine/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/"
+                href="http://localhost:1313/dlaciebie/en/medicine/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/about_as/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/about_as/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/about_as/"
+                href="http://localhost:1313/dlaciebie/dentist/about_as/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/about_as/"
+                href="http://localhost:1313/dlaciebie/en/dentist/about_as/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/about_as/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/about_as/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/about_as/"
+                href="http://localhost:1313/dlaciebie/medicine/about_as/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/about_as/"
+                href="http://localhost:1313/dlaciebie/en/medicine/about_as/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/orthopedist/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/orthopedist/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/orthopedist/"
+                href="http://localhost:1313/dlaciebie/medicine/orthopedist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/orthopedist/"
+                href="http://localhost:1313/dlaciebie/en/medicine/orthopedist/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/pediatricdentistry/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/pediatricdentistry/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/pediatricdentistry/"
+                href="http://localhost:1313/dlaciebie/dentist/pediatricdentistry/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/pediatricdentistry/"
+                href="http://localhost:1313/dlaciebie/en/dentist/pediatricdentistry/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/gallery/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/gallery/"
+                href="http://localhost:1313/dlaciebie/dentist/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/gallery/"
+                href="http://localhost:1313/dlaciebie/en/dentist/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/gallery/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/gallery/"
+                href="http://localhost:1313/dlaciebie/medicine/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/gallery/"
+                href="http://localhost:1313/dlaciebie/en/medicine/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/photorejuvenation/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/photorejuvenation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/photorejuvenation/"
+                href="http://localhost:1313/dlaciebie/medicine/photorejuvenation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/photorejuvenation/"
+                href="http://localhost:1313/dlaciebie/en/medicine/photorejuvenation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/physiotherapy/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/physiotherapy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/physiotherapy/"
+                href="http://localhost:1313/dlaciebie/medicine/physiotherapy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/physiotherapy/"
+                href="http://localhost:1313/dlaciebie/en/medicine/physiotherapy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/prophylaxis/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/prophylaxis/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/prophylaxis/"
+                href="http://localhost:1313/dlaciebie/dentist/prophylaxis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/prophylaxis/"
+                href="http://localhost:1313/dlaciebie/en/dentist/prophylaxis/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/medicine/radiowave/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/medicine/radiowave/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/medicine/radiowave/"
+                href="http://localhost:1313/dlaciebie/medicine/radiowave/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/medicine/radiowave/"
+                href="http://localhost:1313/dlaciebie/en/medicine/radiowave/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/dlaciebie/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="http://localhost:1313/dlaciebie/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/dlaciebie/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:1313/dlaciebie/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/dentist/teethwhitening/</loc>
+    <loc>http://localhost:1313/dlaciebie/en/dentist/teethwhitening/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="http://localhost:1313/dentist/teethwhitening/"
+                href="http://localhost:1313/dlaciebie/dentist/teethwhitening/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/dentist/teethwhitening/"
+                href="http://localhost:1313/dlaciebie/en/dentist/teethwhitening/"
                 />
   </url>
 </urlset>
