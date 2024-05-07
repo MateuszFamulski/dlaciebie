@@ -1,9 +1,18 @@
 <style>
-    .bar.background-image-fixed-2 {
-  background: url('/img/see_more/dentist/img_1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+.bar.background-image-fixed-2 {
+    background: url('/img/see_more/dentist/img_1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;  /* Fixed background on desktop */
 }
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+    .bar.background-image-fixed-2 {
+        background-attachment: scroll; /* Disable fixed background on mobile */
+    }
+}
+
 </style>
 
         <section class="bar background-image-fixed-2 no-mb color-white text-center">
