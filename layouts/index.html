@@ -1,64 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
   <head>
-    {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
+    {{ partial "headers.html" . }} {{ partial "custom_headers.html" . }}
   </head>
-
-  <script>
-    let hasAccess = false;
-    while (!hasAccess) {
-      const password = prompt("Podaj hasło, aby uzyskać dostęp do strony:");
-      if (password == "dupablada") {  // Ustaw swoje tymczasowe hasło
-        hasAccess = true;
-      } else {
-        alert("Błędne hasło!");
-      }
-    }
-  </script>
-  
-  
 
   <head>
     <style>
+      h2 {
+        text-align: center; /* Wyśrodkowanie tekstu */
+        font-size: 2vw; /* Responsywny rozmiar tekstu */
+        background: -webkit-linear-gradient(45deg, #112d7a, #db67e3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(45deg, #112d7abb, #db67e3a1);
+        color: rgb(255, 255, 255);
+      }
+
+      @media (max-width: 600px) {
         h2 {
-            text-align: center; /* Wyśrodkowanie tekstu */
-            font-size: 2vw; /* Responsywny rozmiar tekstu */
-            background: -webkit-linear-gradient(45deg, #112d7a, #db67e3);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background: -webkit-linear-gradient(45deg, #112d7abb, #db67e3a1);
-            color: rgb(255, 255, 255);
+          font-size: 5vw; /* Większy rozmiar tekstu na małych ekranach */
         }
-
-
-        @media (max-width: 600px) {
-            h2 {
-                font-size: 5vw; /* Większy rozmiar tekstu na małych ekranach */
-            }
-        }
+      }
     </style>
-</head>
-
+  </head>
 
   <body>
-
     <div id="all">
+      {{ partial "nav_home.html" . }}
 
-        {{ partial "nav_home.html" . }}
+      <!-- <h2> Perfekcyjny Uśmiech Czeka w Dwóch Lokalizacjach: Gdzie Go Odkryjesz? </h2>       -->
 
-            <!-- <h2> Perfekcyjny Uśmiech Czeka w Dwóch Lokalizacjach: Gdzie Go Odkryjesz? </h2>       -->
-
-        {{ partial "home.html" . }}
-
-        {{ partial "footer.html" . }}
-
+      {{ partial "home.html" . }} {{ partial "footer.html" . }}
     </div>
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-
   </body>
 </html>
