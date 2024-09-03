@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Medicine on Stomatologia i Medycyna dla Ciebie</title>
-    <link>//localhost:1313/en/medicine/</link>
+    <link>dlaciebie.stargard.pl/en/medicine/</link>
     <description>Recent content in Medicine on Stomatologia i Medycyna dla Ciebie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/en/medicine/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="dlaciebie.stargard.pl/en/medicine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>//localhost:1313/en/medicine/contact/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/contact/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/contact/</guid>
       <description>{{ partial &amp;ldquo;contact_medicine.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Dental Treatment for Adults and Children: We Care for Your Smile</title>
-      <link>//localhost:1313/en/medicine/dental_treatment/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/dental_treatment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/dental_treatment/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/dental_treatment/</guid>
       <description>Comprehensive Care at Any Age In our dental office, we offer comprehensive dental care for patients of all ages. Our experienced team of specialists provides quality services including conservative treatment, preventive care and cosmetic procedures to keep your smile healthy and beautiful at all times.&#xA;Services Available at Our Dental Office: Conservative Treatment: Our team of specialists performs a variety of conservative treatment procedures, such as fillings, root canal therapy and tooth restoration, to restore the health and functionality of your teeth.</description>
     </item>
     <item>
       <title>Dietetics: It All Starts with the Stomach.</title>
-      <link>//localhost:1313/en/medicine/dietetics/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/dietetics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/dietetics/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/dietetics/</guid>
       <description>At Medicine for You, nutritionists play a key role in providing comprehensive health care. An experienced dietitian, who is an integral part of our team, places special emphasis on an individualized approach to each patient.&#xA;Consultation at the Highest Level During dietary consultations, he conducts a thorough assessment of the patient&amp;rsquo;s health status, taking into account the patient&amp;rsquo;s medical history, lifestyle and health goals. Using state-of-the-art diagnostic tools and methods, she works with the patient to identify areas that need attention in terms of nutrition.</description>
     </item>
     <item>
       <title>FAQ</title>
-      <link>//localhost:1313/en/medicine/faq/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/faq/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/faq/</guid>
       <description>Welcome to &amp;ldquo;Medicine for You&amp;rdquo;! We are a team of specialists in various fields of medicine and aesthetics. Here you will find answers to questions that will help you better understand the scope and specifics of our services. If you need additional information, please contact us directly.&#xA;1. How can I make an appointment? You can make an appointment by phone at +48 519 455 989, through our website or in person at our office.</description>
     </item>
     <item>
       <title>Laser Carbon Peeling: Discover the Secret of Radiant Skin</title>
-      <link>//localhost:1313/en/medicine/laser_carbon_peeling/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/laser_carbon_peeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/laser_carbon_peeling/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/laser_carbon_peeling/</guid>
       <description>Dive into the experience of deep skin regeneration with our carbon laser peel service. This innovative treatment is the key to achieving radiant, rejuvenated skin without the need for lengthy recovery or invasive procedures.&#xA;How Does Laser Carbon Peeling Work? Our laser carbon peeling technology uses the unique properties of activated carbon, which is applied to the surface of the skin. Then, using a precise laser pulse, energy is absorbed by the carbon particles, resulting in controlled heating of the skin and removal of dead skin and impurities.</description>
     </item>
     <item>
       <title>Laser Depilation: Smooth Skin Forever</title>
-      <link>//localhost:1313/en/medicine/laser_depilation/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/laser_depilation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/laser_depilation/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/laser_depilation/</guid>
       <description>Forget about regular shaving, waxing or painful hair removal methods. Our laser hair removal service is a fast, effective and permanent way to get rid of unwanted hair once and for all.&#xA;Effectiveness of Laser Technology Our advanced laser hair removal equipment uses precise pulses of light that reach the hair roots, destroying them without damaging the surrounding skin. This ensures long-lasting results without painful irritation or ingrown hairs.</description>
     </item>
     <item>
       <title>Modern Medical Care in Stargard</title>
-      <link>//localhost:1313/en/medicine/about_as/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/about_as/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/about_as/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/about_as/</guid>
       <description>Welcome to Medicine for You - a place where caring for your health is our top priority. We are a modern medical facility located at 59/2 Niepodległości Street in picturesque Stargard. Our team of doctors and medical staff have combined their passion for their work with the latest medical advances to provide our patients with the highest level of care.&#xA;Our Mission Our mission is to provide comprehensive medical care for every patient.</description>
     </item>
     <item>
       <title>Orthopedist: Experience in Orthopedics</title>
-      <link>//localhost:1313/en/medicine/orthopedist/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/orthopedist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/orthopedist/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/orthopedist/</guid>
       <description>In our office, orthopedics is an indispensable part of comprehensive health care. Our experienced orthopedist specializes in the diagnosis, treatment and rehabilitation of diseases and injuries of the musculoskeletal system.&#xA;Let&amp;rsquo;s talk! We begin each consultation with a thorough medical history and physical examination to understand the patient&amp;rsquo;s complaints and determine the source of the problem. Our patients can expect a comprehensive orthopedic evaluation and a personalized approach to their case.</description>
     </item>
     <item>
       <title>Photo gallery</title>
-      <link>//localhost:1313/en/medicine/gallery/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/gallery/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/gallery/</guid>
       <description>{{ partial &amp;ldquo;gallery_medicine.html&amp;rdquo; . }}</description>
     </item>
     <item>
       <title>Photorejuvenation: Reclaim the Youthfulness of Your Skin</title>
-      <link>//localhost:1313/en/medicine/photorejuvenation/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/photorejuvenation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/photorejuvenation/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/photorejuvenation/</guid>
       <description>Photorejuvenation is an innovative method that allows skin rejuvenation without undergoing painful and invasive surgical procedures. By using light of the right wavelength, our devices stimulate the skin&amp;rsquo;s natural regenerative processes, providing a rejuvenating effect and improving skin condition.&#xA;Benefits of Photorejuvenation: Reduction of wrinkles and fine lines.&#xA;Improvement of skin elasticity and firmness.&#xA;Reduction of hyperpigmentation and pigmentation spots.&#xA;Cleansing the skin of impurities and excess sebum.&#xA;Stimulating the production of collagen and elastin, which are key to the youthful appearance of the skin.</description>
     </item>
     <item>
       <title>Physiotherapy - First Diagnosis</title>
-      <link>//localhost:1313/en/medicine/physiotherapy/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/physiotherapy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/physiotherapy/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/physiotherapy/</guid>
       <description>In our medical office, physiotherapy is an integral part of comprehensive health care. We begin each consultation with a precise diagnosis, using state-of-the-art diagnostic equipment and innovative technologies.&#xA;Everyone Is Different Our approach to the patient is individual and holistic. We not only identify the problem, but also take the time to understand their needs and expectations. We create a personalized treatment plan that takes into account both the therapeutic goals and expectations of the patient.</description>
     </item>
     <item>
       <title>Radiofrequency Wave Using Laser: Revolutionary Technology for Your Skin</title>
-      <link>//localhost:1313/en/medicine/radio_wave/</link>
+      <link>dlaciebie.stargard.pl/en/medicine/radio_wave/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/medicine/radio_wave/</guid>
+      <guid>dlaciebie.stargard.pl/en/medicine/radio_wave/</guid>
       <description>Presenting an innovative service using a combination of radio wave and laser that is revolutionizing the approach to skin care. Our devices provide comprehensive, non-invasive and effective solutions to a wide range of skin problems, from aging to scars and acne.&#xA;How Does Radio Wave Technology with Laser Work? Our advanced devices use laser light energy combined with radio waves to precisely reach the layers of the skin where regeneration and renewal processes take place.</description>
     </item>
   </channel>
