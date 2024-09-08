@@ -1,76 +1,94 @@
-
-
-
-
 <style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-container,
+  .iframe-container {
+    width: 100%; /* Full width on smaller screens */
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px 0; /* Vertical margin only */
+  }
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+  @media (min-width: 768px) {
+    .content-section {
+      display: flex;
+      justify-content: space-between; /* Space items equally */
     }
-    .contact-container, .iframe-container {
-        width: 100%; /* Full width on smaller screens */
-        box-sizing: border-box;
-        padding: 20px;
-        margin: 10px 0; /* Vertical margin only */
+    .contact-container,
+    .iframe-container {
+      flex: 1; /* Each container takes half of the container's width */
+      margin: 0 10px; /* Horizontal margin */
     }
     iframe {
-        width: 100%;
-        height: 300px;
+      height: 400px; /* Larger height on desktop */
     }
-    @media (min-width: 768px) {
-        .content-section {
-            display: flex;
-            justify-content: space-between; /* Space items equally */
-        }
-        .contact-container, .iframe-container {
-            flex: 1; /* Each container takes half of the container's width */
-            margin: 0 10px; /* Horizontal margin */
-        }
-        iframe {
-            height: 400px; /* Larger height on desktop */
-        }
-    }
+  }
 </style>
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-<title>Stomatologia dla Ciebie</title>
+  <title>Stomatologia dla Ciebie</title>
 
   <head>
-    {{ partial "headers_dentist.html" . }}
-    {{ partial "custom_headers.html" . }}
+    {{ partial "headers_dentist.html" . }} {{ partial "custom_headers.html" . }}
   </head>
 
   <body>
-
     <div class="container">
-        {{ partial "breadcrumbs.html" . }}
-        <div class="content-section">
-            <div class="contact-container">
-                <h2>Stomatologia dla Ciebie</h2>
-                <p><strong>Niepodległości 59/2<br>
-                   73-110 Stargard</strong></p>
-                <p>{{ i18n "phone" }}: <a href="tel:+48519455989">+48 519 455 989</a></p>
+      {{ partial "breadcrumbs.html" . }}
+      <div class="content-section">
+        <div class="contact-container">
+          <h2>Stomatologia dla Ciebie</h2>
+          <p>
+            <strong
+              >Niepodległości 59/2<br />
+              73-110 Stargard</strong
+            >
+          </p>
+          <p>
+            {{ i18n "phone" }}: <a href="tel:+48519455989">+48 519 455 989</a>
+          </p>
 
-                <div class="opening-hours">
-                    <h4>{{ i18n "openingHours" }}</h4>
-                    <p><br>
-                        {{ i18n "monday" }}: 10:00–20:00<br>
-                        {{ i18n "tuesday" }}: 10:00–20:00<br>
-                        {{ i18n "wednesday" }}: 10:00–20:00<br>
-                        {{ i18n "thursday" }}: 10:00–20:00<br>
-                        {{ i18n "friday" }}: 09:00–20:00<br>
-                        {{ i18n "saturday" }}: {{ i18n "closed" }}<br>
-                        {{ i18n "sunday" }}: {{ i18n "closed" }}</p>
-                </div>
-            </div>
-            <div class="iframe-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1713993169474!6m8!1m7!1sCAoSLEFGMVFpcE9LUGQzYzRFZzBURWtMTm5pR3JOMUtwa3pibVpZMTRYZ1ppQ2Fj!2m2!1d53.31424889999999!2d15.04171220000001!3f58.80888931436568!4f2.7092939115827477!5f0.4000000000000002" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+          <div class="opening-hours">
+            <h4>{{ i18n "openingHours" }}</h4>
+            <p>
+              <br />
+              {{ i18n "monday" }}: 10:00–20:00<br />
+              {{ i18n "tuesday" }}: 10:00–20:00<br />
+              {{ i18n "wednesday" }}: 10:00–20:00<br />
+              {{ i18n "thursday" }}: 10:00–20:00<br />
+              {{ i18n "friday" }}: 09:00–20:00<br />
+              {{ i18n "saturday" }}: {{ i18n "closed" }}<br />
+              {{ i18n "sunday" }}: {{ i18n "closed" }}
+            </p>
+          </div>
         </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1725805598872!6m8!1m7!1sCAoSLEFGMVFpcFBOQnlIdjJSbEhTeUxhUFR3VjNwSjhiYndXME9MdlBjclZ1TnFm!2m2!1d53.31372112977464!2d15.04273175203295!3f97.94063430991886!4f7.587701887793486!5f0.7820865974627469"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.649147469518!2d15.040107975932317!3d53.31372947227982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700b9be5fcd558d%3A0x19baa1313a64dff3!2sStomatologia%20dla%20Ciebie!5e0!3m2!1spl!2spl!4v1709677534651!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </body>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.649147469518!2d15.040107975932317!3d53.31372947227982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700b9be5fcd558d%3A0x19baa1313a64dff3!2sStomatologia%20dla%20Ciebie!5e0!3m2!1spl!2spl!4v1709677534651!5m2!1spl!2spl"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </body>
 </html>

@@ -1,339 +1,284 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+  {{ if in .RelPermalink "/medicine/" }}
+  <head>
+    {{ partial "headers_medicine.html" . }} {{ partial "custom_headers.html" .
+    }}
+  </head>
+  {{ else if in .RelPermalink "/dentist/" }}
+  <head>
+    {{ partial "headers_dentist.html" . }} {{ partial "custom_headers.html" . }}
+  </head>
+  {{ end }}
 
-    {{ if in .RelPermalink "/medicine/" }}
-    <head>
-      {{ partial "headers_medicine.html" . }}
-      {{ partial "custom_headers.html" . }}
-    </head>
-    {{ else if in .RelPermalink "/dentist/" }}
-    <head>
-      {{ partial "headers_dentist.html" . }}
-      {{ partial "custom_headers.html" . }}
-    </head>
-    {{ end }}
-
-    <style>
-
+  <style>
     .image-dentist-aboutus-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-251.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 20%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-faq-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-221.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-consultation-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-160.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-endodontics-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-181.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-dental-sugery-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-197.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 60%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-implants-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-219.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 60%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-conservatice-treatment-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-224.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-pediatric-dentistry-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-73.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-prophylaxis-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-76.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-dentist-teeth-whitening-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-80.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-aboutus-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-253.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 8%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-faq-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-3.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-dental-treatment-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-30.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-dietetics-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-45.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-laser-carbon-peeling-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-98.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-laser-depilation-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-100.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-orthopedist-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-14.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-photorejuvenation-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-102.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-physiotherapy-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-18.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
-      .image-medicine-radio-wave-banner {
-            width: 100%; /* Szerokość kontenera */
-            height: 300px; /* Wysokość kontenera */
-            background-image: url('/img/photo/Stomatologia_Stargard_2048px-108.jpg'); /* Ścieżka do obrazu */
-            background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
-            background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
-            border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
-        }
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-251.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 20%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-faq-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-221.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-consultation-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-68.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-endodontics-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-181.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-dental-sugery-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-197.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 60%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-implants-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-219.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 60%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-conservatice-treatment-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-224.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-pediatric-dentistry-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-73.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-prophylaxis-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-76.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-dentist-teeth-whitening-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-80.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-aboutus-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-251.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 8%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-faq-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-3.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 40%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-dental-treatment-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-30.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-dietetics-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-45.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-laser-carbon-peeling-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-98.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-laser-depilation-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-100.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-orthopedist-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-14.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-photorejuvenation-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-102.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 50%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-physiotherapy-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-18.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+    .image-medicine-radio-wave-banner {
+      width: 100%; /* Szerokość kontenera */
+      height: 300px; /* Wysokość kontenera */
+      background-image: url("/img/photo/Stomatologia_Stargard_2048px-108.jpg"); /* Ścieżka do obrazu */
+      background-size: cover; /* Zapewnia, że obraz pokryje cały kontener */
+      background-position: center 70%; /* Centruje obraz i przesuwa go wyżej (możesz regulować wartość procentową) */
+      border: 1px solid #ccc; /* Opcjonalna ramka dla lepszej widoczności */
+    }
+  </style>
 
-    </style>
-
-
-{{ if in .RelPermalink "/dentist/" }}
+  {{ if in .RelPermalink "/dentist/" }}
   <body>
-
     <div id="dentist">
+      {{ partial "nav_dentist.html" . }}
 
-        {{ partial "nav_dentist.html" . }}
+      <!-- {{ partial "breadcrumbs.html" . }} -->
 
-        <!-- {{ partial "breadcrumbs.html" . }} -->
+      <div id="content">
+        {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
 
-        <div id="content">
-          
+        <div class="container">
+          {{ partial "breadcrumbs.html" . }} {{ if eq .RelPermalink
+          "/dentist/about_as/" }}
+          <div class="image-dentist-aboutus-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/faq/"}}
+          <div class="image-dentist-faq-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/consultation_and_research/"}}
+          <div class="image-dentist-consultation-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/endodontics/"}}
+          <div class="image-dentist-endodontics-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/dental_surgery/"}}
+          <div class="image-dentist-dental-sugery-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/implants/"}}
+          <div class="image-dentist-implants-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/conservatice_treatment/"}}
+          <div class="image-dentist-conservatice-treatment-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/pediatric_dentistry/"}}
+          <div class="image-dentist-pediatric-dentistry-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/prophylaxis/"}}
+          <div class="image-dentist-prophylaxis-banner"></div>
+          {{ else if eq .RelPermalink "/dentist/teeth_whitening/"}}
+          <div class="image-dentist-teeth-whitening-banner"></div>
+          {{ else }} {{ end }}
 
-          
-
-            {{ if isset .Params "id" }}
-
-              {{ partial .Params.id . }}
-
-            {{ else }}
-
-            <div class="container">
-              {{ partial "breadcrumbs.html" . }}
-
-              {{ if eq .RelPermalink "/dentist/about_as/" }}
-              <div class="image-dentist-aboutus-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/faq/"}}
-              <div class="image-dentist-faq-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/consultation_and_research/"}}
-              <div class="image-dentist-consultation-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/endodontics/"}}
-              <div class="image-dentist-endodontics-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/dental_surgery/"}}
-              <div class="image-dentist-dental-sugery-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/implants/"}}
-              <div class="image-dentist-implants-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/conservatice_treatment/"}}
-              <div class="image-dentist-conservatice-treatment-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/pediatric_dentistry/"}}
-              <div class="image-dentist-pediatric-dentistry-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/prophylaxis/"}}
-              <div class="image-dentist-prophylaxis-banner"></div>
-              {{ else if eq .RelPermalink "/dentist/teeth_whitening/"}}
-              <div class="image-dentist-teeth-whitening-banner"></div>
-              {{ else }}
-
-
-              {{ end }}
-
-                <div class="row">
-                  
-                    <div class="col-md-12">
-
-                        <div>
-
-                          {{ .Content }}
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- /.row -->
-
+          <div class="row">
+            <div class="col-md-12">
+              <div>{{ .Content }}</div>
             </div>
-            <!-- /.container -->
-
-            {{ end }}
+          </div>
+          <!-- /.row -->
         </div>
-        <!-- /#content -->
+        <!-- /.container -->
 
-        {{ partial "footer.html" . }}
+        {{ end }}
+      </div>
+      <!-- /#content -->
 
+      {{ partial "footer.html" . }}
     </div>
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-
   </body>
-{{ else if in .RelPermalink "/medicine/" }}
+  {{ else if in .RelPermalink "/medicine/" }}
   <body>
-
     <div id="medicine">
+      {{ partial "nav_medicine.html" . }}
 
-        {{ partial "nav_medicine.html" . }}
+      <!-- {{ partial "breadcrumbs.html" . }} -->
 
-        <!-- {{ partial "breadcrumbs.html" . }} -->
+      <div id="content">
+        {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
 
-        <div id="content">
-          
+        <div class="container">
+          {{ partial "breadcrumbs.html" . }} {{ if eq .RelPermalink
+          "/medicine/about_as/" }}
+          <div class="image-medicine-aboutus-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/faq/"}}
+          <div class="image-medicine-faq-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/dental_treatment/"}}
+          <div class="image-medicine-dental-treatment-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/dietetics/"}}
+          <div class="image-medicine-dietetics-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/laser_carbon_peeling/"}}
+          <div class="image-medicine-laser-carbon-peeling-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/laser_depilation/"}}
+          <div class="image-medicine-laser-depilation-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/orthopedist/"}}
+          <div class="image-medicine-orthopedist-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/photorejuvenation/"}}
+          <div class="image-medicine-photorejuvenation-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/physiotherapy/"}}
+          <div class="image-medicine-physiotherapy-banner"></div>
+          {{ else if eq .RelPermalink "/medicine/radio_wave/"}}
+          <div class="image-medicine-radio-wave-banner"></div>
+          {{ else }} {{ end }}
 
-          
-
-            {{ if isset .Params "id" }}
-
-              {{ partial .Params.id . }}
-
-            {{ else }}
-
-            <div class="container">
-              {{ partial "breadcrumbs.html" . }}
-
-              {{ if eq .RelPermalink "/medicine/about_as/" }}
-              <div class="image-medicine-aboutus-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/faq/"}}
-              <div class="image-medicine-faq-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/dental_treatment/"}}
-              <div class="image-medicine-dental-treatment-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/dietetics/"}}
-              <div class="image-medicine-dietetics-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/laser_carbon_peeling/"}}
-              <div class="image-medicine-laser-carbon-peeling-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/laser_depilation/"}}
-              <div class="image-medicine-laser-depilation-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/orthopedist/"}}
-              <div class="image-medicine-orthopedist-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/photorejuvenation/"}}
-              <div class="image-medicine-photorejuvenation-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/physiotherapy/"}}
-              <div class="image-medicine-physiotherapy-banner"></div>
-              {{ else if eq .RelPermalink "/medicine/radio_wave/"}}
-              <div class="image-medicine-radio-wave-banner"></div>
-              {{ else }}
-
-
-              {{ end }}
-
-                <div class="row">
-                  
-                    <div class="col-md-12">
-
-                        <div>
-
-                          {{ .Content }}
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- /.row -->
-
+          <div class="row">
+            <div class="col-md-12">
+              <div>{{ .Content }}</div>
             </div>
-            <!-- /.container -->
-
-            {{ end }}
+          </div>
+          <!-- /.row -->
         </div>
-        <!-- /#content -->
+        <!-- /.container -->
 
-        {{ partial "footer.html" . }}
+        {{ end }}
+      </div>
+      <!-- /#content -->
 
+      {{ partial "footer.html" . }}
     </div>
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-
   </body>
-{{ end }}
-
-
+  {{ end }}
 </html>
